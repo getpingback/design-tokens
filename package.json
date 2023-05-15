@@ -1,0 +1,23 @@
+{
+  "name": "design-tokens",
+  "version": "0.0.1",
+  "description": "All design tokens into a JSON file for multiple projects.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getpingback/design-tokens.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "themes"
+  ],
+  "author": "Pingback team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getpingback/design-tokens/issues"
+  },
+  "homepage": "https://github.com/getpingback/design-tokens#readme"
+}
