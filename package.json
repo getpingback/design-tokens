@@ -3,6 +3,9 @@
   "version": "0.0.1-beta.2",
   "description": "All design tokens into a JSON file for multiple projects.",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "generate": "yarn run ts-node src/scripts/generateThemes",
     "build": "rm -rf dist && tsc -p tsconfig.build.json"
