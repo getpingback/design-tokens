@@ -1,32 +1,42 @@
 name: Generate theme JSON files
+
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
-  run-action:
-    name: Run action
+  release:
     runs-on: ubuntu-latest
-
+    # This check needs to be in place to prevent a publish loop with auto and github actions
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - uses: actions/checkout@v2
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v2
+      - name: Use Node.js 14.19
+        uses: actions/setup-node@v1
         with:
-          node-version: 16.x
-          cache: 'yarn'
-          cache-dependency-path: yarn.lock
+          node-version: 14.19.x
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Create .npmrc file
+        run:  |
+          echo @getpingback:registry=https://npm.pkg.github.com >> .npmrc
+          echo //npm.pkg.github.com/:_authToken=${{ secrets.NPM_PB_TOKEN }} >> .npmrc
 
-      - name: Run action
-        uses: yarn run ts-node src/scripts/generateThemes
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: yarn-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-deps-${{ hashFiles('yarn.lock') }}
 
-      - name: Build
-        run: yarn build
+      - name: Create Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          yarn install --frozen-lockfile
+          yarn run ts-node src/scripts/generateThemes
+          yarn build
+          yarn release
