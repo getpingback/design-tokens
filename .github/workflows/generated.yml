@@ -39,4 +39,4 @@ jobs:
           yarn install --frozen-lockfile
           yarn run ts-node src/scripts/generateThemes
           yarn build
-          yarn publish --access public --non-interactive --no-git-tag-version --new-version ${{ github.event.head_commit.id }}
+          yarn publish --access public --non-interactive --no-git-tag-version
