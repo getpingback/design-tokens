@@ -39,4 +39,4 @@ jobs:
           yarn install --frozen-lockfile
           yarn run ts-node src/scripts/generateThemes
           yarn build
-          yarn publish
+          yarn publish --access public
