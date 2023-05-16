@@ -1,6 +1,6 @@
 {
   "name": "@getpingback/design-tokens",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "All design tokens into a JSON file for multiple projects.",
   "main": "dist/index.js",
   "scripts": {
