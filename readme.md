@@ -40,6 +40,16 @@ const App = () => {
 };
 ```
 
+## Development
+
+Before start to develop, you will need to run the following command:
+
+```
+sh npmrcconfig.sh
+```
+
+It will generate a `.npmrc` file with env tokens.
+
 ## License
 
 Licensed under the MIT License, Copyright © 2023-present Pingback LLC.

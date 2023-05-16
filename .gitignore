@@ -1,0 +1,9 @@
+.npmrc
+
+/build
+/dist
+
+node_modules
+debug.log
+
+.vscode
