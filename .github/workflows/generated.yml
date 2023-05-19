@@ -45,11 +45,10 @@ jobs:
           restore-keys: |
             yarn-deps-${{ hashFiles('yarn.lock') }}
 
-      - name: Create Release
+      - name: Publishing package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn install --frozen-lockfile
           yarn generate
-          yarn build
           yarn publish --access public --non-interactive --no-git-tag-version
