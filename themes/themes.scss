@@ -1,7 +1,8 @@
-@import "./pingbackLightMode.scss";
+
+  @import "./pingbackLightMode.scss";
 @import "./pingbackDarkMode.scss";
 
-$palette-gradiente-1: var(--palette-gradiente-1);
+  $palette-gradiente-1: var(--palette-gradiente-1);
 $palette-gradiente-2: var(--palette-gradiente-2);
 $palette-gradiente-3: var(--palette-gradiente-3);
 $palette-gradiente-active_menu: var(--palette-gradiente-active_menu);
@@ -431,9 +432,6 @@ $border-drop_zone-style: var(--border-drop_zone-style);
 $border-drop_zone-actived-color: var(--border-drop_zone-actived-color);
 $border-drop_zone-actived-width: var(--border-drop_zone-actived-width);
 $border-drop_zone-actived-style: var(--border-drop_zone-actived-style);
-$border-card_image-color: var(--border-card_image-color);
-$border-card_image-width: var(--border-card_image-width);
-$border-card_image-style: var(--border-card_image-style);
 $banner-default_bg: var(--banner-default_bg);
 $banner-text_default: var(--banner-text_default);
 $tabs-bottom_line: var(--tabs-bottom_line);
@@ -441,7 +439,7 @@ $tabs-label_actived: var(--tabs-label_actived);
 $tabs-bottom_line_hover: var(--tabs-bottom_line_hover);
 $tabs-fade_gradient: var(--tabs-fade_gradient);
 $tabs-label: var(--tabs-label);
-$pill-react_default: var(--pill-react_default);
+$pill-default: var(--pill-default);
 $pill-react_actived: var(--pill-react_actived);
 $pill-label_default: var(--pill-label_default);
 $pill-label_default-hovered: var(--pill-label_default-hovered);
@@ -449,3 +447,10 @@ $pill-label_actived: var(--pill-label_actived);
 $pill-label_actived_hovered: var(--pill-label_actived_hovered);
 $nesting-tracking: var(--nesting-tracking);
 $button-hover: var(--button-hover);
+$button-hover-solid: var(--button-hover-solid);
+$list-hover: var(--list-hover);
+$list-actived: var(--list-actived);
+$list-label_default: var(--list-label_default);
+$list-label_actived: var(--list-label_actived);
+
+  

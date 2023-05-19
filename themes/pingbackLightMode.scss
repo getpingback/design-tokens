@@ -428,9 +428,6 @@
 --border-drop_zone-actived-color: rgba(#9061F9,0.45);
 --border-drop_zone-actived-width: 2;
 --border-drop_zone-actived-style: dashed;
---border-card_image-color: #FAFAFA;
---border-card_image-width: 1;
---border-card_image-style: solid;
 --banner-default_bg: #047481;
 --banner-text_default: #047481;
 --tabs-bottom_line: #9061F9;
@@ -438,7 +435,7 @@
 --tabs-bottom_line_hover: rgba(#71717A,100);
 --tabs-fade_gradient: linear-gradient(180deg, #3F3F46 0%, rgba(63, 63, 70, 0) 100%);;
 --tabs-label: #52525B;
---pill-react_default: rgba(#71717A, 0.08);
+--pill-default: rgba(#71717A, 0.08);
 --pill-react_actived: rgba(#AC94FA, 0.08);
 --pill-label_default: #71717A;
 --pill-label_default-hovered: #52525B;
@@ -446,4 +443,9 @@
 --pill-label_actived_hovered: #7E3AF2;
 --nesting-tracking: #E4E4E7;
 --button-hover: 0px 0px 0px 3px rgba(#71717A, 0.12);
+--button-hover-solid: 0px 0px 0px 3px rgba(#9061F9, 0.24);
+--list-hover: rgba(#71717A,0.08);
+--list-actived: rgba(#9061F9,0.08);
+--list-label_default: #71717A;
+--list-label_actived: #7E3AF2;
 }

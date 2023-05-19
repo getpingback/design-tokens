@@ -19,7 +19,7 @@ const _writeExportContentFile = (newModesValues: any[]) => {
         )}Styles from "./themes/${_toCamelCase(mode.name)}.scss"`
     )
     .join("\n")}
-    import themeStyles from "./themes/theme.scss"
+    import themeStyles from "./themes/themes.scss"
     
     export {${newModesValues
       .map(
@@ -195,19 +195,19 @@ modesValues.forEach((mode) => {
   const theme = _convertToJson(mode);
   const scssContent = _convertToScss(theme, "", themeName);
 
-  fs.writeFileSync(`src/themes/${themeName}.scss`, scssContent);
-  fs.writeFileSync(`src/themes/${themeName}.json`, JSON.stringify(theme));
+  fs.writeFileSync(`themes/${themeName}.scss`, scssContent);
+  fs.writeFileSync(`themes/${themeName}.json`, JSON.stringify(theme));
 });
 
-fs.writeFileSync("src/index.ts", _writeExportContentFile(modesValues));
+fs.writeFileSync("index.ts", _writeExportContentFile(modesValues));
 
 const pingbackLightMode = JSON.parse(
-  fs.readFileSync("src/themes/pingbackLightMode.json", "utf8")
+  fs.readFileSync("themes/pingbackLightMode.json", "utf8")
 );
 
 const scssVariables = _writeScssVariablesFile(pingbackLightMode);
 fs.writeFileSync(
-  "src/themes/themes.scss",
+  "themes/themes.scss",
   _writeScssContentFile(modesValues, scssVariables)
 );
 

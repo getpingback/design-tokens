@@ -436,7 +436,7 @@
 --tabs-drop_zone-actived-width: 2;
 --tabs-drop_zone-actived-style: dashed;
 --tabs-label: #F4F4F5;
---pill-react_default: rgba(#F4F4F5, 0.12);
+--pill-default: rgba(#F4F4F5, 0.12);
 --pill-react_actived: rgba(#AC94FA, 0.12);
 --pill-label_default: #E4E4E7;
 --pill-label_default-hovered: #F4F4F5;
@@ -447,6 +447,16 @@
 --button-hover-y: 0;
 --button-hover-blur: 0;
 --button-hover-spread: 3;
---button-hover-color: rgba(#71717A, 0.24);
+--button-hover-color: rgba(#71717A, 0.16);
 --button-hover-type: dropShadow;
+--button-hover-solid-x: 0;
+--button-hover-solid-y: 0;
+--button-hover-solid-blur: 0;
+--button-hover-solid-spread: 3;
+--button-hover-solid-color: rgba(#AC94FA, 0.24);
+--button-hover-solid-type: dropShadow;
+--list-hover: rgba(#E4E4E7,0.08);
+--list-actived: rgba(#AC94FA,0.08);
+--list-label_default: #E4E4E7;
+--list-label_actived: #AC94FA;
 }

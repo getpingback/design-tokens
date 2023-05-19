@@ -2,9 +2,9 @@
   "name": "@getpingback/design-tokens",
   "version": "0.2.2",
   "description": "All design tokens into a JSON file for multiple projects.",
-  "main": "src/themes/themes.scss",
+  "main": "themes/themes.scss",
   "files": [
-    "src/themes"
+    "themes"
   ],
   "scripts": {
     "generate": "yarn run ts-node src/scripts/generateThemes",
