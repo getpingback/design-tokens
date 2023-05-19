@@ -4,6 +4,6 @@
   "compilerOptions": {
     "types": ["node"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src", "*.scss", "index.d.ts"],
   "exclude": ["src/**/*.spec.ts"]
 }

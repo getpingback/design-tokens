@@ -50,6 +50,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn install --frozen-lockfile
-          yarn run ts-node src/scripts/generateThemes
+          yarn generate
           yarn build
           yarn publish --access public --non-interactive --no-git-tag-version
