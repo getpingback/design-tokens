@@ -65,7 +65,7 @@ const _searchForReferences = (currentObj: any, referenceObj?: any) => {
 
     if (typeof currentObj[key] === "string") {
       const value = _changeReferencesToValues(currentObj[key], referenceObj);
-      currentObj[key] = value;
+      currentObj[key] = _convertRGBAtoHex(value);
     }
   });
 };
@@ -91,6 +91,19 @@ const _changeReferencesToValues = (str: string, obj: any) => {
   });
 
   return str;
+};
+
+const _convertRGBAtoHex = (rgbaString: string) => {
+  const regex = /rgba\(([^,]+),([^)]+)\)/g;
+  const rgbaValues = [...rgbaString.matchAll(regex)];
+
+  if (!rgbaValues.length) return rgbaString;
+
+  const hexColor = rgbaValues[0][1];
+  const opacity = Math.round(parseFloat(rgbaValues[0][2]) * 255);
+  const hexOpacity = opacity.toString(16).padStart(2, "0");
+
+  return `${hexColor}${hexOpacity}`;
 };
 
 const _convertToScss = (obj: any, prefix = "", themeName = "") => {
