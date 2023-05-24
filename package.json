@@ -1,6 +1,6 @@
 {
   "name": "@getpingback/design-tokens",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "description": "All design tokens into a JSON file for multiple projects.",
   "main": "themes/themes.scss",
   "files": [
