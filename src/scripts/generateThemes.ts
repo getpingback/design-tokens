@@ -102,8 +102,11 @@ const _convertRGBAtoHex = (rgbaString: string) => {
   const hexColor = rgbaValues[0][1];
   const opacity = Math.round(parseFloat(rgbaValues[0][2]) * 255);
   const hexOpacity = opacity.toString(16).padStart(2, "0");
+  const combinedHex = `${hexColor}${hexOpacity}`;
 
-  return `${hexColor}${hexOpacity}`;
+  const color = rgbaString.replace(regex, combinedHex);
+
+  return color;
 };
 
 const _convertToScss = (obj: any, prefix = "", themeName = "") => {
