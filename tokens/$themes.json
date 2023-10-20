@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "916c3d2189588918947e91520965d363eade068d",
+    "name": "Light Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Pingback Classic/Light Mode": "enabled"
+    },
+    "group": "Purple Classic"
+  },
+  {
+    "id": "4b8e004687b7b3f2ea27be88941bc4a98e65017e",
+    "name": "Dark Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Pingback Classic/Dark Mode": "enabled"
+    },
+    "group": "Purple Classic"
+  }
+]
