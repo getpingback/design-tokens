@@ -2314,7 +2314,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "rgba({palette.purple.500}, 0.25)",
+          "color": "rgba({palette.mint.500}, 0.25)",
           "type": "dropShadow"
         }
       ],
