@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
-    "Pingback Classic/Light Mode",
-    "Pingback Classic/Dark Mode",
+    "Purple Classic/Light Mode",
+    "Purple Classic/Dark Mode",
     "Mint/Light Mode",
     "Mint/Dark Mode",
     "Cyan/Light Mode",
@@ -15,6 +15,8 @@
     "Magenta/Light Mode",
     "Magenta/Dark Mode",
     "Pink/Light Mode",
-    "Pink/Dark Mode"
+    "Pink/Dark Mode",
+    "Indigo/Light Mode",
+    "Indigo/Dark Mode"
   ]
 }

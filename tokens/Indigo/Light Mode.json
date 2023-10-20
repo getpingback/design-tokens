@@ -1676,7 +1676,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.pink.50}",
+      "value": "{palette.purple.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
@@ -1716,7 +1716,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
     },
     "color": {
-      "value": "{palette.pink.400}",
+      "value": "{palette.purple.900}",
       "type": "color"
     },
     "color_ghost": {
@@ -1818,12 +1818,12 @@
   },
   "links": {
     "default": {
-      "value": "{palette.pink.500}",
+      "value": "{palette.purple.800}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.pink.600}",
+      "value": "{palette.purple.900}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
@@ -1849,7 +1849,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{palette.pink.500}",
+      "value": "{palette.purple.800}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
@@ -1955,7 +1955,7 @@
   },
   "buttons": {
     "solid_default": {
-      "value": "{palette.pink.500}",
+      "value": "{palette.purple.800}",
       "type": "color",
       "description": "ethereal music"
     },
@@ -1965,7 +1965,7 @@
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
     "ghost_bg-color": {
-      "value": "rgba({palette.pink.500},0.12)",
+      "value": "rgba({palette.purple.800},0.12)",
       "type": "color",
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
@@ -1986,7 +1986,7 @@
       "type": "color"
     },
     "label_color": {
-      "value": "{palette.pink.600}",
+      "value": "{palette.purple.800}",
       "type": "color"
     },
     "destructive": {
@@ -2234,12 +2234,12 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.pink.500}",
+      "value": "{palette.purple.800}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.pink.600}",
+      "value": "{palette.purple.800}",
       "type": "color"
     },
     "bottom_line_hover": {
@@ -2279,11 +2279,11 @@
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.pink.500}",
+      "value": "{palette.purple.800}",
       "type": "color"
     },
     "label_actived_hovered": {
-      "value": "{palette.pink.600}",
+      "value": "{palette.purple.900}",
       "type": "color"
     }
   },
@@ -2314,7 +2314,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "rgba({palette.pink.500}, 0.25)",
+          "color": "rgba({palette.pink.800}, 0.25)",
           "type": "dropShadow"
         }
       ],
@@ -2335,7 +2335,7 @@
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.pink.600}",
+      "value": "{palette.purple.800}",
       "type": "color"
     }
   },
