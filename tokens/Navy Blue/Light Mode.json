@@ -6,7 +6,7 @@
         "type": "color"
       },
       "2": {
-        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);",
+        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%)",
         "type": "color"
       },
       "3": {
@@ -14,7 +14,7 @@
         "type": "color"
       },
       "active_menu": {
-        "value": "linear-gradient(270deg, rgba({palette.purple.400}, 0) 0%, rgba({palette.purple.400}, 0.08) 100%);",
+        "value": "linear-gradient(270deg, rgba({palette.purple.600}, 0) 0%, rgba({palette.purple.600}, 0.04) 100%);",
         "type": "color",
         "description": "Padrão de degradê para menus ativos no painel lateral de navegação. "
       },
@@ -715,7 +715,7 @@
           "y": "2",
           "blur": "8",
           "spread": "-1",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -723,12 +723,12 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
       "type": "boxShadow",
-      "description": "Padrão para cards. "
+      "description": "Padrão para cards e inputs"
     },
     "1": {
       "value": [
@@ -737,7 +737,7 @@
           "y": "1",
           "blur": "2",
           "spread": "-1",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         }
       ],
@@ -751,7 +751,7 @@
           "y": "4",
           "blur": "16",
           "spread": "-2",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -759,7 +759,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -773,7 +773,7 @@
           "y": "6",
           "blur": "24",
           "spread": "-3",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -781,7 +781,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -795,7 +795,7 @@
           "y": "8",
           "blur": "32",
           "spread": "-4",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -803,8 +803,8 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
-          "type": "innerShadow"
+          "color": "rgba({palette.neutral.black}, 0.04)",
+          "type": "dropShadow"
         }
       ],
       "type": "boxShadow",
@@ -817,7 +817,7 @@
           "y": "10",
           "blur": "40",
           "spread": "-5",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -825,8 +825,8 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
-          "type": "innerShadow"
+          "color": "rgba({palette.neutral.black}, 0.04)",
+          "type": "dropShadow"
         }
       ],
       "type": "boxShadow",
@@ -841,7 +841,7 @@
           "y": "-2",
           "blur": "8",
           "spread": "-1",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -849,7 +849,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -862,7 +862,7 @@
           "y": "-4",
           "blur": "16",
           "spread": "-2",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -870,7 +870,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -883,7 +883,7 @@
           "y": "-6",
           "blur": "24",
           "spread": "-3",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -891,7 +891,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -904,7 +904,7 @@
           "y": "-8",
           "blur": "32",
           "spread": "-4",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -912,7 +912,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.24)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -922,10 +922,10 @@
       "value": [
         {
           "x": "0",
-          "y": "-24",
+          "y": "-10",
           "blur": "40",
-          "spread": "0",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "spread": "-5",
+          "color": "rgba({palette.neutral.black}, 0.08)",
           "type": "dropShadow"
         },
         {
@@ -933,7 +933,7 @@
           "y": "0",
           "blur": "1",
           "spread": "1",
-          "color": "rgba({palette.neutral.black}, 0.48)",
+          "color": "rgba({palette.neutral.black}, 0.04)",
           "type": "dropShadow"
         }
       ],
@@ -1570,7 +1570,7 @@
         "lineHeight": "{line_height.150}"
       },
       "type": "typography",
-      "description": "Padrão para títulos para cards.\n"
+      "description": "Padrão para descrições de cards.\n"
     },
     "label": {
       "value": {
@@ -1676,51 +1676,51 @@
   },
   "background": {
     "default": {
-      "value": "{palette.gray.900}",
+      "value": "{palette.gray.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
     "accent": {
-      "value": "{palette.gray.800}",
+      "value": "{palette.neutral.white}",
       "type": "color",
       "description": "Cor padrão para fundo de componentes como cards e modais."
     },
     "neutral": {
-      "value": "rgba({palette.gray.300}, 0.12)",
+      "value": "rgba({palette.gray.300}, 0.25)",
       "type": "color",
       "description": "Cor padrão para fundo de componentes neutros. Ex: Callout"
     },
     "informative": {
-      "value": "rgba({palette.purple.500}, 0.12)",
+      "value": "rgba({palette.purple.500}, 0.08)",
       "type": "color",
       "description": "Cor padrão para fundo de componentes neutros. Ex: Callout"
     },
     "success": {
-      "value": "rgba({palette.green.400}, 0.12)",
+      "value": "rgba({palette.green.400}, 0.08)",
       "type": "color",
       "description": "Cor padrão para fundo de componentes que comuniquem sucesso. Ex: Callout"
     },
     "caution": {
-      "value": "rgba({palette.yellow.300}, 0.12)",
+      "value": "rgba({palette.yellow.300}, 0.08)",
       "type": "color",
       "description": "Cor padrão para fundo de componentes que comuniquem atenção. Ex: Callout"
     },
-    "warning": {
-      "value": "rgba({palette.orange.400}, 0.16)",
-      "type": "color",
-      "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
-    },
     "error": {
-      "value": "rgba({palette.red.500}, 0.16)",
+      "value": "rgba({palette.red.500}, 0.08)",
       "type": "color",
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
+    "warning": {
+      "value": "rgba({palette.orange.400}, 0.08)",
+      "type": "color",
+      "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
+    },
     "color": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.900}",
       "type": "color"
     },
     "color_ghost": {
-      "value": "rgba({palette.teal.400},0.12)",
+      "value": "rgba({palette.teal.500},0.12)",
       "type": "color"
     },
     "tolltip": {
@@ -1728,235 +1728,373 @@
       "type": "color"
     },
     "blank_avatar": {
-      "value": "{palette.gray.700}",
+      "value": "{palette.gray.100}",
       "type": "color"
     },
     "blur_gradiente": {
-      "value": "linear-gradient(180deg, rgba(39, 39, 42, 0.5) 0%, rgba(39, 39, 42, 1) 100%);",
+      "value": "linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.80) 100%);",
       "type": "color"
     }
   },
   "text": {
-    "secondary": {
-      "value": "{palette.gray.100}",
-      "type": "color",
-      "description": "Use para textos em elementos secundários, como conteúdo em cards, modals e callouts."
-    },
     "primary": {
-      "value": "{palette.gray.50}",
+      "value": "{palette.gray.700}",
       "type": "color",
       "description": "Use para textos principais, como textos de menu, corpo de texto e headers."
     },
+    "secondary": {
+      "value": "{palette.gray.600}",
+      "type": "color",
+      "description": "Use para textos em elementos secundários, como conteúdo em cards, modals e callouts."
+    },
     "tertiary": {
-      "value": "{palette.gray.200}",
+      "value": "{palette.gray.500}",
       "type": "color",
       "description": "Use para textos em elementos terciários, como helper texts, breadcrumbs, metadados, inputs e widgets. "
     },
     "inverse": {
-      "value": "{palette.gray.700}",
+      "value": "{palette.gray.50}",
       "type": "color"
     },
     "active": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color",
-      "description": "Use para textos informativos."
+      "description": "Use para textos que estão ativos, pressionados ou em hover. "
     },
     "informative": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.purple.600}",
       "type": "color",
       "description": "Use para textos informativos."
     },
     "informative_accent": {
-      "value": "{palette.purple.300}",
+      "value": "{palette.purple.700}",
       "type": "color",
       "description": "Use para textos informativos em background roxo."
     },
     "success": {
-      "value": "{palette.green.400}",
+      "value": "{palette.green.600}",
       "type": "color",
       "description": "Use para textos que comuniquem um resultado favorável, como uma mensagem de sucesso. "
     },
     "success_accent": {
-      "value": "{palette.green.300}",
+      "value": "{palette.green.700}",
       "type": "color",
       "description": "Use para textos de sucesso em background verde."
     },
     "caution": {
-      "value": "{palette.yellow.200}",
+      "value": "{palette.yellow.500}",
       "type": "color",
       "description": "Use para textos que precisam enfatizar cautela."
     },
     "caution_accent": {
-      "value": "{palette.yellow.200}",
+      "value": "{palette.yellow.600}",
       "type": "color",
       "description": "Use para textos que precisam enfatizar cautela."
     },
     "warning": {
-      "value": "{palette.orange.400}",
+      "value": "{palette.orange.500}",
       "type": "color",
       "description": "Use para textos que precisam de comunicar alerta precaução. "
     },
     "warning_accent": {
-      "value": "{palette.orange.400}",
+      "value": "{palette.orange.600}",
       "type": "color",
       "description": "Use para textos de alerta em background laranja."
     },
     "error": {
-      "value": "{palette.red.400}",
+      "value": "{palette.red.600}",
       "type": "color",
       "description": "Use para textos que precisam comunicar algum erro ou ações destrutivas."
     },
     "error_accent": {
-      "value": "{palette.red.400}",
+      "value": "{palette.red.700}",
       "type": "color",
       "description": "Use para textos de alerta em background vermelho."
     },
     "money": {
-      "value": "{palette.green.400}",
+      "value": "{palette.green.500}",
       "type": "color"
     }
   },
   "links": {
     "default": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.teal.500}",
+      "value": "{palette.blue.900}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
   },
   "icons": {
     "default": {
-      "value": "{palette.gray.200}",
+      "value": "{palette.gray.500}",
       "type": "color",
       "description": "Use para ícones de menus, dropdown, tabelas e accordions. "
     },
     "default_bg": {
-      "value": "rgba({palette.purple.200}, 0.12)",
+      "value": "rgba({palette.gray.500}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones informativos."
     },
     "accent": {
-      "value": "{palette.gray.300}",
+      "value": "{palette.gray.600}",
       "type": "color",
       "description": "Use para ícones neutro em backgrounds cinza."
     },
+    "inverse": {
+      "value": "{palette.gray.50}",
+      "type": "color"
+    },
     "active": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
     "informative_bg": {
-      "value": "rgba({palette.purple.400}, 0.12)",
+      "value": "rgba({palette.purple.500}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones informativos."
     },
     "informative_accent": {
-      "value": "{palette.purple.300}",
+      "value": "{palette.purple.700}",
       "type": "color",
       "description": "Use para ícones informativos em backgrounds roxo."
     },
     "informative_accent_bg": {
-      "value": "rgba({palette.purple.300}, 0.12)",
+      "value": "rgba({palette.purple.700}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones informativos em backgrounds roxo."
     },
     "success": {
-      "value": "{palette.green.400}",
+      "value": "{palette.green.500}",
       "type": "color",
       "description": "Use para ícones de sucesso."
     },
     "success_bg": {
-      "value": "rgba({palette.green.400}, 0.12)",
+      "value": "rgba({palette.green.500}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de sucesso."
     },
     "success_accent": {
-      "value": "{palette.green.300}",
+      "value": "{palette.green.700}",
       "type": "color",
       "description": "Use para ícones de sucesso em backgrounds verde."
     },
     "success_accent_bg": {
-      "value": "rgba({palette.green.300}, 0.12)",
+      "value": "rgba({palette.green.700}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de sucesso em backgrounds verde."
     },
     "caution": {
-      "value": "{palette.yellow.200}",
+      "value": "{palette.yellow.500}",
       "type": "color",
       "description": "Use para ícones de atenção."
     },
     "caution_bg": {
-      "value": "rgba({palette.yellow.200}, 0.12)",
+      "value": "rgba({palette.yellow.300}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de atenção."
     },
     "caution_accent": {
-      "value": "{palette.yellow.200}",
+      "value": "{palette.yellow.600}",
       "type": "color",
       "description": "Use para ícones de atenção em backgrounds amarelo."
     },
     "caution_accent_bg": {
-      "value": "rgba({palette.yellow.200}, 0.12)",
+      "value": "rgba({palette.yellow.600}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de atenção em backgrounds amarelo."
     },
     "warning": {
-      "value": "{palette.orange.400}",
+      "value": "{palette.orange.500}",
       "type": "color",
       "description": "Use para ícones de alerta."
     },
     "warning_bg": {
-      "value": "rgba({palette.orange.400}, 0.12)",
+      "value": "rgba({palette.orange.500}, 0.08)",
       "type": "color",
       "description": "Use para fundo de ícones de alerta."
     },
     "warning_accent": {
-      "value": "{palette.orange.400}",
+      "value": "{palette.orange.600}",
       "type": "color",
       "description": "Use para ícones de alerta em backgrounds laranja."
     },
     "warning_accent_bg": {
-      "value": "rgba({palette.orange.400}, 0.12)",
+      "value": "rgba({palette.orange.600}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de alerta em backgrounds laranja."
     },
     "error": {
-      "value": "{palette.red.400}",
+      "value": "{palette.red.500}",
       "type": "color",
       "description": "Use para ícones de erro ou falha."
     },
     "error_bg": {
-      "value": "rgba({palette.red.400}, 0.12)",
+      "value": "rgba({palette.red.500}, 0.08)",
       "type": "color",
       "description": "Use para fundo de ícones de erro ou falha."
     },
     "error_accent": {
-      "value": "{palette.red.400}",
+      "value": "{palette.red.700}",
       "type": "color",
       "description": "Use para ícones de erro ou falha em backgrounds vermelho."
     },
     "error_accent_bg": {
-      "value": "rgba({palette.red.400}, 0.12)",
+      "value": "rgba({palette.red.700}, 0.12)",
       "type": "color",
       "description": "Use para fundo de ícones de erro ou falha em backgrounds vermelho."
-    },
-    "inverse": {
-      "value": "{palette.teal.900}",
-      "type": "color"
     },
     "check_list": {
       "value": "{palette.green.400}",
       "type": "color"
     }
   },
+  "buttons": {
+    "solid_default": {
+      "value": "{palette.blue.900}",
+      "type": "color",
+      "description": "ethereal music"
+    },
+    "ghost_bg": {
+      "value": "rgba({palette.gray.600}, 0.08)",
+      "type": "color",
+      "description": "Cor padrão do fundo dos botões ghosts. "
+    },
+    "ghost_bg-color": {
+      "value": "rgba({palette.blue.500},0.12)",
+      "type": "color",
+      "description": "Cor padrão do fundo dos botões ghosts. "
+    },
+    "label": {
+      "value": "{palette.gray.600}",
+      "type": "color"
+    },
+    "label_inverse": {
+      "value": "{palette.gray.50}",
+      "type": "color"
+    },
+    "sliders": {
+      "value": "{palette.gray.50}",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "{palette.gray.200}",
+      "type": "color"
+    },
+    "label_color": {
+      "value": "{palette.blue.900}",
+      "type": "color"
+    },
+    "destructive": {
+      "value": "{palette.red.500}",
+      "type": "color"
+    }
+  },
+  "badge": {
+    "counter_text": {
+      "value": "{palette.gray.500}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “counter”."
+    },
+    "counter_bg": {
+      "value": "rgba({palette.gray.400}, 0.16)",
+      "type": "color",
+      "description": "Cor padrão para o background do badge “counter”."
+    },
+    "new_text": {
+      "value": "{palette.green.600}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “new”."
+    },
+    "new_bg": {
+      "value": "rgba({palette.green.500}, 0.12)",
+      "type": "color",
+      "description": "Cor padrão para o background do badge “new”."
+    },
+    "disabled_text": {
+      "value": "{palette.yellow.500}",
+      "type": "color"
+    },
+    "disabled_bg": {
+      "value": "rgba({palette.yellow.300}, 0.12)",
+      "type": "color"
+    },
+    "opicional_text": {
+      "value": "{palette.pink.600}",
+      "type": "color"
+    },
+    "opicional_bg": {
+      "value": "rgba({palette.pink.500}, 0.16)",
+      "type": "color"
+    },
+    "assinatura_text": {
+      "value": "{palette.purple.600}",
+      "type": "color"
+    },
+    "assinatura_bg": {
+      "value": "rgba({palette.purple.500}, 0.16)",
+      "type": "color"
+    },
+    "unico_text": {
+      "value": "{palette.blue.600}",
+      "type": "color"
+    },
+    "unico_bg": {
+      "value": "rgba({palette.blue.500}, 0.16)",
+      "type": "color"
+    },
+    "beta-text": {
+      "value": "{palette.teal.500}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “beta”."
+    },
+    "soon-text": {
+      "value": "{palette.teal.600}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “soon”."
+    },
+    "soon_bg": {
+      "value": "rgba({palette.teal.400}, 0.12)",
+      "type": "color",
+      "description": "Cor padrão para o background do badge “soon”."
+    },
+    "live-text": {
+      "value": "{palette.red.500}",
+      "type": "color"
+    },
+    "suspended_text": {
+      "value": "{palette.red.600}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “suspended”."
+    },
+    "suspended-bg": {
+      "value": "rgba({palette.red.400}, 0.12)",
+      "type": "color",
+      "description": "Cor padrão para o background do badge “suspended”."
+    },
+    "upgrade_text": {
+      "value": "{palette.gray.50}",
+      "type": "color",
+      "description": "Cor padrão para o texto do badge “upgrade”."
+    },
+    "upgrade_bg": {
+      "value": "{palette.green.500}",
+      "type": "color",
+      "description": "Cor padrão para o background do badge “upgrade”."
+    },
+    "admin": {
+      "value": "{palette.pink.600}",
+      "type": "color"
+    }
+  },
   "border": {
     "divider": {
       "value": {
-        "color": "{palette.gray.700}",
+        "color": "{palette.gray.200}",
         "width": "1px",
         "style": "solid"
       },
@@ -1965,7 +2103,7 @@
     },
     "input_default": {
       "value": {
-        "color": "{palette.gray.700}",
+        "color": "{palette.gray.200}",
         "width": "1px",
         "style": "solid"
       },
@@ -2005,7 +2143,7 @@
     },
     "button_outlined": {
       "value": {
-        "color": "{palette.gray.500}",
+        "color": "{palette.gray.300}",
         "width": "1px",
         "style": "solid"
       },
@@ -2021,7 +2159,7 @@
     },
     "item_menu": {
       "value": {
-        "color": "rgba({palette.gray.700},0.45)",
+        "color": "rgba({palette.gray.200},0.45)",
         "width": "1px",
         "style": "solid"
       },
@@ -2029,7 +2167,7 @@
     },
     "badge_beta": {
       "value": {
-        "color": "rgba({palette.teal.300}, 0.25)",
+        "color": "rgba({palette.teal.400}, 0.25)",
         "width": "1px",
         "style": "solid"
       },
@@ -2037,7 +2175,7 @@
     },
     "badge_live": {
       "value": {
-        "color": "rgba({palette.red.400}, 0.25)",
+        "color": "rgba({palette.red.500}, 0.25)",
         "width": "1px",
         "style": "solid"
       },
@@ -2045,7 +2183,7 @@
     },
     "cards": {
       "value": {
-        "color": "rgba({palette.gray.50},0.08)",
+        "color": "rgba({palette.gray.700},0.08)",
         "width": "1px",
         "style": "solid"
       },
@@ -2061,7 +2199,7 @@
     },
     "drop_zone-actived": {
       "value": {
-        "color": "rgba({palette.purple.400},0.45)",
+        "color": "rgba({palette.purple.500},0.45)",
         "width": "2",
         "style": "dashed"
       },
@@ -2077,149 +2215,11 @@
     },
     "card_banner": {
       "value": {
-        "color": "rgba(255, 255, 255, 0.24)",
-        "width": "1px",
+        "color": "rgba(255,255,255,0.24)",
+        "width": "4px",
         "style": "solid"
       },
       "type": "border"
-    }
-  },
-  "buttons": {
-    "solid_default": {
-      "value": "{palette.teal.400}",
-      "type": "color",
-      "description": "ethereal music"
-    },
-    "ghost_bg": {
-      "value": "rgba({palette.gray.50} 0.08)",
-      "type": "color",
-      "description": "Cor padrão do fundo dos botões ghosts. "
-    },
-    "ghost_bg-color": {
-      "value": "rgba({palette.teal.400},0.24)",
-      "type": "color",
-      "description": "Cor padrão do fundo dos botões ghosts. "
-    },
-    "label": {
-      "value": "{palette.gray.100}",
-      "type": "color"
-    },
-    "label_inverse": {
-      "value": "{palette.teal.900}",
-      "type": "color"
-    },
-    "sliders": {
-      "value": "{palette.gray.600}",
-      "type": "color"
-    },
-    "disabled": {
-      "value": "{palette.gray.700}",
-      "type": "color"
-    },
-    "label_color": {
-      "value": "{palette.teal.400}",
-      "type": "color"
-    },
-    "destructive": {
-      "value": "{palette.red.500}",
-      "type": "color"
-    }
-  },
-  "badge": {
-    "counter_text": {
-      "value": "{palette.gray.200}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “counter”."
-    },
-    "counter_bg": {
-      "value": "rgba({palette.gray.100}, 0.12)",
-      "type": "color",
-      "description": "Cor padrão para o background do badge “counter”."
-    },
-    "new_text": {
-      "value": "{palette.green.400}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “new”."
-    },
-    "new_bg": {
-      "value": "rgba({palette.green.300}, 0.12)",
-      "type": "color",
-      "description": "Cor padrão para o background do badge “new”."
-    },
-    "beta-text": {
-      "value": "{palette.teal.300}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “beta”."
-    },
-    "soon-text": {
-      "value": "{palette.teal.400}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “soon”."
-    },
-    "soon_bg": {
-      "value": "rgba({palette.teal.300}, 0.12)",
-      "type": "color",
-      "description": "Cor padrão para o background do badge “soon”."
-    },
-    "live-text": {
-      "value": "{palette.red.400}",
-      "type": "color"
-    },
-    "suspended_text": {
-      "value": "{palette.red.500}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “suspended”."
-    },
-    "suspended-bg": {
-      "value": "rgba({palette.red.400}, 0.12)",
-      "type": "color",
-      "description": "Cor padrão para o background do badge “suspended”."
-    },
-    "upgrade_text": {
-      "value": "{palette.gray.50}",
-      "type": "color",
-      "description": "Cor padrão para o texto do badge “upgrade”."
-    },
-    "upgrade_bg": {
-      "value": "{palette.green.500}",
-      "type": "color",
-      "description": "Cor padrão para o background do badge “upgrade”."
-    },
-    "admin": {
-      "value": "{palette.pink.600}",
-      "type": "color"
-    },
-    "assinatura_text": {
-      "value": "{palette.purple.400}",
-      "type": "color"
-    },
-    "assinatura_bg": {
-      "value": "rgba({palette.purple.400}, 0.16)",
-      "type": "color"
-    },
-    "unico_bg": {
-      "value": "rgba({palette.blue.400}, 0.16)",
-      "type": "color"
-    },
-    "unico_text": {
-      "value": "{palette.blue.400}",
-      "type": "color"
-    },
-    "opicional_text": {
-      "value": "{palette.pink.400}",
-      "type": "color"
-    },
-    "opicional_bg": {
-      "value": "rgba({palette.pink.400}, 0.16)",
-      "type": "color"
-    },
-    "disabled_text": {
-      "value": "{palette.yellow.400}",
-      "type": "color"
-    },
-    "disabled_bg": {
-      "value": "rgba({palette.yellow.300}, 0.12)",
-      "type": "color"
     }
   },
   "banner": {
@@ -2234,104 +2234,108 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color"
     },
     "bottom_line_hover": {
-      "value": "rgba({palette.gray.100},100)",
-      "type": "color"
-    },
-    "label": {
-      "value": "{palette.gray.100}",
+      "value": "rgba({palette.gray.500},100)",
       "type": "color"
     },
     "fade_gradient": {
       "value": "linear-gradient(180deg, #3F3F46 0%, rgba(63, 63, 70, 0) 100%);",
       "type": "color"
     },
+    "label": {
+      "value": "{palette.gray.600}",
+      "type": "color"
+    },
     "bg_neutro": {
-      "value": "rgba( {palette.gray.50}, 0.04)",
+      "value": "rgba( {palette.gray.500}, 0.04)",
       "type": "color"
     }
   },
   "pill": {
     "default": {
-      "value": "rgba({palette.gray.100}, 0.12)",
+      "value": "rgba({palette.gray.500}, 0.08)",
       "type": "color",
       "description": "Padrão default do background das pill de de react"
     },
     "react_actived": {
-      "value": "rgba({palette.purple.400}, 0.12)",
+      "value": "rgba({palette.purple.400}, 0.08)",
       "type": "color",
       "description": "Padrão do background das pill de de react ativadas."
     },
     "label_default": {
-      "value": "{palette.gray.200}",
+      "value": "{palette.gray.500}",
       "type": "color"
     },
     "label_default-hovered": {
-      "value": "{palette.gray.100}",
-      "type": "color"
-    },
-    "label_actived_hovered": {
-      "value": "{palette.teal.500}",
+      "value": "{palette.gray.600}",
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.500}",
+      "type": "color"
+    },
+    "label_actived_hovered": {
+      "value": "{palette.blue.600}",
       "type": "color"
     }
   },
   "nesting": {
     "tracking": {
-      "value": "{palette.gray.600}",
+      "value": "{palette.gray.200}",
       "type": "color"
     }
   },
   "button": {
     "hover": {
-      "value": {
-        "x": "0",
-        "y": "0",
-        "blur": "0",
-        "spread": "3",
-        "color": "rgba({palette.gray.500}, 0.16)",
-        "type": "dropShadow"
-      },
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "rgba({palette.gray.500}, 0.12)",
+          "type": "dropShadow"
+        }
+      ],
       "type": "boxShadow"
     },
     "hover-solid": {
-      "value": {
-        "x": "0",
-        "y": "0",
-        "blur": "0",
-        "spread": "3",
-        "color": "rgba({palette.purple.400}, 0.25)",
-        "type": "dropShadow"
-      },
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "rgba({palette.purple.500}, 0.25)",
+          "type": "dropShadow"
+        }
+      ],
       "type": "boxShadow"
     }
   },
   "list": {
     "hover": {
-      "value": "rgba({palette.gray.200},0.08)",
+      "value": "rgba({palette.gray.500},0.08)",
       "type": "color"
     },
     "actived": {
-      "value": "rgba({palette.purple.400},0.08)",
+      "value": "rgba({palette.purple.500},0.08)",
       "type": "color"
     },
     "label_default": {
-      "value": "{palette.gray.200}",
+      "value": "{palette.gray.500}",
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.teal.400}",
+      "value": "{palette.blue.800}",
       "type": "color"
     }
   },
@@ -2353,27 +2357,27 @@
       "type": "color"
     },
     "needle": {
-      "value": "rgba( {palette.gray.50}, 0.25)",
+      "value": "rgba( {palette.gray.700}, 0.25)",
       "type": "color"
     },
     "dot_teal": {
-      "value": "{palette.teal.300}",
+      "value": "{palette.teal.400}",
       "type": "color"
     },
     "dot_purple": {
-      "value": "{palette.purple.300}",
+      "value": "{palette.purple.400}",
       "type": "color"
     },
     "bars": {
-      "value": "rgba( {palette.blue.400} , 0.65)",
+      "value": "rgba( {palette.blue.500}, 0.45)",
       "type": "color"
     },
     "bars_2": {
-      "value": "rgba( {palette.blue.500} , 0.25)",
+      "value": "rgba( {palette.blue.500}, 0.16)",
       "type": "color"
     },
     "bars_3": {
-      "value": "rgba( {palette.blue.500} , 0.16)",
+      "value": "rgba( {palette.blue.500}, 0.08)",
       "type": "color"
     }
   },
@@ -2384,7 +2388,7 @@
         "y": "-24",
         "blur": "40",
         "spread": "0",
-        "color": "rgba( {palette.neutral.black}, 0.12)",
+        "color": "rgba( {palette.gray.700}, 0.04)",
         "type": "dropShadow"
       },
       {
@@ -2392,7 +2396,7 @@
         "y": "-24",
         "blur": "24",
         "spread": "0",
-        "color": "rgba( {palette.neutral.black}, 0.08)",
+        "color": "rgba( {palette.gray.700}, 0.02)",
         "type": "dropShadow"
       }
     ],

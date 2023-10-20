@@ -1716,7 +1716,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.mint.400}",
+      "value": "{palette.mint.300}",
       "type": "color"
     },
     "color_ghost": {
@@ -1845,7 +1845,7 @@
       "description": "Use para ícones neutro em backgrounds cinza."
     },
     "active": {
-      "value": "{palette.mint.400}",
+      "value": "{palette.mint.300}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
@@ -1945,7 +1945,7 @@
       "description": "Use para fundo de ícones de erro ou falha em backgrounds vermelho."
     },
     "inverse": {
-      "value": "{palette.gray.50}",
+      "value": "{palette.mint.900}",
       "type": "color"
     },
     "check_list": {
@@ -2086,7 +2086,7 @@
   },
   "buttons": {
     "solid_default": {
-      "value": "{palette.mint.500}",
+      "value": "{palette.mint.300}",
       "type": "color",
       "description": "ethereal music"
     },
@@ -2105,7 +2105,7 @@
       "type": "color"
     },
     "label_inverse": {
-      "value": "{palette.gray.50}",
+      "value": "{palette.mint.900}",
       "type": "color"
     },
     "sliders": {
@@ -2234,12 +2234,12 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.mint.500}",
+      "value": "{palette.mint.300}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.mint.400}",
+      "value": "{palette.mint.300}",
       "type": "color"
     },
     "bottom_line_hover": {
