@@ -1757,7 +1757,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{palette.mint.500}",
+      "value": "{palette.purple.700}",
       "type": "color",
       "description": "Use para textos que estão ativos, pressionados ou em hover. "
     },
