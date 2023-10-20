@@ -4,10 +4,9 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
       "Purple Classic/Light Mode": "enabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -16,10 +15,9 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "enabled"
+      "Purple Classic/Dark Mode": "enabled",
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -29,10 +27,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mint/Light Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -42,10 +38,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mint/Light Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -55,10 +49,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Cyan/Light Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -68,10 +60,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Cyan/Dark Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -81,10 +71,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Teal/Light Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Teal"
   },
@@ -94,10 +82,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Teal/Light Mode": "enabled",
-      "Indigo/Light Mode": "disabled",
-      "Indigo/Dark Mode": "disabled",
-      "Purple Classic/Light Mode": "disabled",
-      "Purple Classic/Dark Mode": "disabled"
+      "Green/Light Mode": "disabled",
+      "Green/Dark Mode": "disabled"
     },
     "group": "Teal"
   }
