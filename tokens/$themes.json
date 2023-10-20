@@ -22,7 +22,6 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Pingback Classic/Light Mode": "enabled",
       "Mint/Light Mode": "enabled"
     },
     "group": "Mint"
@@ -32,7 +31,6 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Pingback Classic/Light Mode": "enabled",
       "Mint/Light Mode": "enabled"
     },
     "group": "Mint"
@@ -60,7 +58,6 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Cyan/Dark Mode": "enabled",
       "Teal/Light Mode": "enabled"
     },
     "group": "Teal"
@@ -70,8 +67,7 @@
     "name": "Dark mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Cyan/Dark Mode": "enabled",
-      "Teal/Dark Mode": "enabled"
+      "Teal/Light Mode": "enabled"
     },
     "group": "Teal"
   }
