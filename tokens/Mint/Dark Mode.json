@@ -1716,11 +1716,11 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color"
     },
     "color_ghost": {
-      "value": "rgba({palette.purple.400},0.12)",
+      "value": "rgba({palette.mint.400},0.12)",
       "type": "color"
     },
     "tolltip": {
@@ -1757,7 +1757,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color",
       "description": "Use para textos informativos."
     },
@@ -1818,12 +1818,12 @@
   },
   "links": {
     "default": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.mint.500}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
@@ -1845,7 +1845,7 @@
       "description": "Use para ícones neutro em backgrounds cinza."
     },
     "active": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
@@ -2086,7 +2086,7 @@
   },
   "buttons": {
     "solid_default": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.mint.500}",
       "type": "color",
       "description": "ethereal music"
     },
@@ -2096,7 +2096,7 @@
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
     "ghost_bg-color": {
-      "value": "rgba({palette.purple.400},0.24)",
+      "value": "rgba({palette.mint.400},0.24)",
       "type": "color",
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
@@ -2117,7 +2117,7 @@
       "type": "color"
     },
     "label_color": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color"
     },
     "destructive": {
@@ -2234,12 +2234,12 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.mint.500}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color"
     },
     "bottom_line_hover": {
@@ -2279,11 +2279,11 @@
       "type": "color"
     },
     "label_actived_hovered": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.mint.500}",
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color"
     }
   },
@@ -2331,7 +2331,7 @@
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.mint.400}",
       "type": "color"
     }
   },

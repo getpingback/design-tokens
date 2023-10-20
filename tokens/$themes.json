@@ -4,7 +4,13 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Pingback Classic/Light Mode": "enabled"
+      "Pingback Classic/Light Mode": "enabled",
+      "Mint/Light Mode": "disabled",
+      "Mint/Dark Mode": "disabled",
+      "Cyan/Light Mode": "disabled",
+      "Cyan/Dark Mode": "disabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -13,8 +19,84 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Pingback Classic/Dark Mode": "enabled"
+      "Pingback Classic/Dark Mode": "enabled",
+      "Mint/Light Mode": "disabled",
+      "Mint/Dark Mode": "disabled",
+      "Cyan/Light Mode": "disabled",
+      "Cyan/Dark Mode": "disabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
+  },
+  {
+    "id": "75f1514842c63ab726a0226b58322f38d4610875",
+    "name": "Light Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Pingback Classic/Light Mode": "enabled",
+      "Mint/Light Mode": "enabled",
+      "Cyan/Light Mode": "disabled",
+      "Cyan/Dark Mode": "disabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
+    },
+    "group": "Mint"
+  },
+  {
+    "id": "2c6a02bd0ee5a5bf1db931ebe49a03d268144c99",
+    "name": "Dark Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Pingback Classic/Light Mode": "enabled",
+      "Mint/Light Mode": "enabled",
+      "Cyan/Light Mode": "disabled",
+      "Cyan/Dark Mode": "disabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
+    },
+    "group": "Mint"
+  },
+  {
+    "id": "35cb7deef7db34834b534838564c50326c5cf5b6",
+    "name": "Light Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Cyan/Light Mode": "enabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
+    },
+    "group": "Cyan"
+  },
+  {
+    "id": "4b37021e64b4b9ff6b6c86dbf35992e1476007c3",
+    "name": "Dark Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Cyan/Dark Mode": "enabled",
+      "Teal/Light Mode": "disabled",
+      "Teal/Dark Mode": "disabled"
+    },
+    "group": "Cyan"
+  },
+  {
+    "id": "6d32a90e7864527fce6060cf69083b23b0e51a68",
+    "name": "Light Mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Cyan/Dark Mode": "enabled",
+      "Teal/Light Mode": "enabled"
+    },
+    "group": "Teal"
+  },
+  {
+    "id": "4809f1dcb8fdcec94dd3191c7561b9ba6ac2c683",
+    "name": "Dark mode",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Cyan/Dark Mode": "enabled",
+      "Teal/Dark Mode": "enabled"
+    },
+    "group": "Teal"
   }
 ]

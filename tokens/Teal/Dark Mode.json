@@ -330,43 +330,43 @@
     },
     "teal": {
       "50": {
-        "value": "#EDFAFA",
+        "value": "#F0FDFA",
         "type": "color"
       },
       "100": {
-        "value": "#D5F5F6",
+        "value": "#CCFBF1",
         "type": "color"
       },
       "200": {
-        "value": "#AFECEF",
+        "value": "#99F6E4",
         "type": "color"
       },
       "300": {
-        "value": "#7EDCE2",
+        "value": "#5EEAD4",
         "type": "color"
       },
       "400": {
-        "value": "#16BDCA",
+        "value": "#2DD4BF",
         "type": "color"
       },
       "500": {
-        "value": "#0694A2",
+        "value": "#14B8A6",
         "type": "color"
       },
       "600": {
-        "value": "#047481",
+        "value": "#0d9485",
         "type": "color"
       },
       "700": {
-        "value": "#036672",
+        "value": "#0f766b",
         "type": "color"
       },
       "800": {
-        "value": "#05505C",
+        "value": "#115e56",
         "type": "color"
       },
       "900": {
-        "value": "#014451",
+        "value": "#134e48",
         "type": "color"
       }
     },
@@ -409,48 +409,6 @@
       },
       "900": {
         "value": "#633112",
-        "type": "color"
-      }
-    },
-    "mint": {
-      "50": {
-        "value": "#F0FDFA",
-        "type": "color"
-      },
-      "100": {
-        "value": "#CCFBF1",
-        "type": "color"
-      },
-      "200": {
-        "value": "#99F6E4",
-        "type": "color"
-      },
-      "300": {
-        "value": "#5EEAD4",
-        "type": "color"
-      },
-      "400": {
-        "value": "#2DD4BF",
-        "type": "color"
-      },
-      "500": {
-        "value": "#14B8A6",
-        "type": "color"
-      },
-      "600": {
-        "value": "#0d9485",
-        "type": "color"
-      },
-      "700": {
-        "value": "#0f766b",
-        "type": "color"
-      },
-      "800": {
-        "value": "#115e56",
-        "type": "color"
-      },
-      "900": {
-        "value": "#134e48",
         "type": "color"
       }
     },
@@ -703,6 +661,48 @@
       },
       "900": {
         "value": "#8D0E33",
+        "type": "color"
+      }
+    },
+    "mint": {
+      "50": {
+        "value": "#F0FDFA",
+        "type": "color"
+      },
+      "100": {
+        "value": "#CCFBF1",
+        "type": "color"
+      },
+      "200": {
+        "value": "#99F6E4",
+        "type": "color"
+      },
+      "300": {
+        "value": "#5EEAD4",
+        "type": "color"
+      },
+      "400": {
+        "value": "#2DD4BF",
+        "type": "color"
+      },
+      "500": {
+        "value": "#14B8A6",
+        "type": "color"
+      },
+      "600": {
+        "value": "#0d9485",
+        "type": "color"
+      },
+      "700": {
+        "value": "#0f766b",
+        "type": "color"
+      },
+      "800": {
+        "value": "#115e56",
+        "type": "color"
+      },
+      "900": {
+        "value": "#134e48",
         "type": "color"
       }
     }
@@ -1716,11 +1716,11 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color"
     },
     "color_ghost": {
-      "value": "rgba({palette.purple.400},0.12)",
+      "value": "rgba({palette.teal.400},0.12)",
       "type": "color"
     },
     "tolltip": {
@@ -1757,7 +1757,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color",
       "description": "Use para textos informativos."
     },
@@ -1818,12 +1818,12 @@
   },
   "links": {
     "default": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.teal.500}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
@@ -1845,7 +1845,7 @@
       "description": "Use para ícones neutro em backgrounds cinza."
     },
     "active": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
@@ -2086,7 +2086,7 @@
   },
   "buttons": {
     "solid_default": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.teal.500}",
       "type": "color",
       "description": "ethereal music"
     },
@@ -2096,7 +2096,7 @@
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
     "ghost_bg-color": {
-      "value": "rgba({palette.purple.400},0.24)",
+      "value": "rgba({palette.teal.400},0.24)",
       "type": "color",
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
@@ -2117,7 +2117,7 @@
       "type": "color"
     },
     "label_color": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color"
     },
     "destructive": {
@@ -2234,12 +2234,12 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.teal.500}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color"
     },
     "bottom_line_hover": {
@@ -2279,11 +2279,11 @@
       "type": "color"
     },
     "label_actived_hovered": {
-      "value": "{palette.purple.500}",
+      "value": "{palette.teal.500}",
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color"
     }
   },
@@ -2331,7 +2331,7 @@
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.purple.400}",
+      "value": "{palette.teal.400}",
       "type": "color"
     }
   },
