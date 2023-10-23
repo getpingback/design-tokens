@@ -1716,7 +1716,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.crimson.500}",
+      "value": "{palette.red.500}",
       "type": "color"
     },
     "color_ghost": {
@@ -1757,7 +1757,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color",
       "description": "Use para textos informativos."
     },
@@ -1818,12 +1818,12 @@
   },
   "links": {
     "default": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.crimson.500}",
+      "value": "{palette.red.500}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
@@ -1845,7 +1845,7 @@
       "description": "Use para ícones neutro em backgrounds cinza."
     },
     "active": {
-      "value": "{palette.crimson.500}",
+      "value": "{palette.red.500}",
       "type": "color",
       "description": "Use para ícones ativos, pressionados ou em hover."
     },
@@ -2086,7 +2086,7 @@
   },
   "buttons": {
     "solid_default": {
-      "value": "{palette.crimson.500}",
+      "value": "{palette.red.500}",
       "type": "color",
       "description": "ethereal music"
     },
@@ -2096,7 +2096,7 @@
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
     "ghost_bg-color": {
-      "value": "rgba({palette.crimson.400},0.24)",
+      "value": "rgba({palette.red.400},0.24)",
       "type": "color",
       "description": "Cor padrão do fundo dos botões ghosts. "
     },
@@ -2105,7 +2105,7 @@
       "type": "color"
     },
     "label_inverse": {
-      "value": "{palette.crimson.50}",
+      "value": "{palette.red.50}",
       "type": "color"
     },
     "sliders": {
@@ -2117,7 +2117,7 @@
       "type": "color"
     },
     "label_color": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color"
     },
     "destructive": {
@@ -2234,12 +2234,12 @@
   },
   "tabs": {
     "bottom_line": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color",
       "description": "Utilizado para indicar quando uma tab está ativa."
     },
     "label_actived": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color"
     },
     "bottom_line_hover": {
@@ -2279,11 +2279,11 @@
       "type": "color"
     },
     "label_actived_hovered": {
-      "value": "{palette.crimson.500}",
+      "value": "{palette.red.500}",
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color"
     }
   },
@@ -2311,7 +2311,7 @@
         "y": "0",
         "blur": "0",
         "spread": "3",
-        "color": "rgba({palette.crimson.400}, 0.25)",
+        "color": "rgba({palette.red.400}, 0.25)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -2331,7 +2331,7 @@
       "type": "color"
     },
     "label_actived": {
-      "value": "{palette.crimson.400}",
+      "value": "{palette.red.400}",
       "type": "color"
     }
   },

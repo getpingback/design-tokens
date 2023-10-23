@@ -5,8 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Purple Classic/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -16,8 +16,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Purple Classic/Dark Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -27,8 +27,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mint/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -38,8 +38,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mint/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -49,8 +49,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Cyan/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -60,8 +60,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Cyan/Dark Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -71,8 +71,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Teal/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Teal"
   },
@@ -82,8 +82,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Teal/Light Mode": "enabled",
-      "Crimson/Light Mode": "disabled",
-      "Crimson/Dark Mode": "disabled"
+      "Red/Light Mode": "disabled",
+      "Red/Dark Mode": "disabled"
     },
     "group": "Teal"
   }
