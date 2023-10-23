@@ -1720,7 +1720,7 @@
       "type": "color"
     },
     "color_ghost": {
-      "value": "rgba({palette.teal.500},0.12)",
+      "value": "rgba({palette.blue.500},0.12)",
       "type": "color"
     },
     "tolltip": {
