@@ -4,7 +4,9 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Purple Classic/Light Mode": "enabled"
+      "Purple Classic/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -13,7 +15,9 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Purple Classic/Dark Mode": "enabled"
+      "Purple Classic/Dark Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Purple Classic"
   },
@@ -22,7 +26,9 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Mint/Light Mode": "enabled"
+      "Mint/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -31,7 +37,9 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Mint/Light Mode": "enabled"
+      "Mint/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Mint"
   },
@@ -40,7 +48,9 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Cyan/Light Mode": "enabled"
+      "Cyan/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -49,7 +59,9 @@
     "name": "Dark Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Cyan/Dark Mode": "enabled"
+      "Cyan/Dark Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Cyan"
   },
@@ -58,7 +70,9 @@
     "name": "Light Mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Teal/Light Mode": "enabled"
+      "Teal/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Teal"
   },
@@ -67,7 +81,9 @@
     "name": "Dark mode",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Teal/Light Mode": "enabled"
+      "Teal/Light Mode": "enabled",
+      "Black/Dark Mode": "disabled",
+      "Black/Light Mode": "disabled"
     },
     "group": "Teal"
   }
