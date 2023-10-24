@@ -1720,7 +1720,7 @@
       "type": "color"
     },
     "color_ghost": {
-      "value": "rgba({palette.gray.800},0.12)",
+      "value": "rgba({palette.gray.50},0.12)",
       "type": "color"
     },
     "tolltip": {
@@ -1733,6 +1733,14 @@
     },
     "blur_gradiente": {
       "value": "linear-gradient(180deg, rgba(39, 39, 42, 0.5) 0%, rgba(39, 39, 42, 1) 100%);",
+      "type": "color"
+    },
+    "color_mark": {
+      "value": "rgba({palette.gray.50},0.16)",
+      "type": "color"
+    },
+    "progress-bar": {
+      "value": "{palette.gray.50}",
       "type": "color"
     }
   },
@@ -2323,7 +2331,7 @@
       "type": "color"
     },
     "actived": {
-      "value": "rgba({palette.yellow.200},0.08)",
+      "value": "rgba({palette.gray.200},0.08)",
       "type": "color"
     },
     "label_default": {

@@ -1734,6 +1734,14 @@
     "blur_gradiente": {
       "value": "linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.80) 100%);",
       "type": "color"
+    },
+    "color_mark": {
+      "value": "rgba({palette.teal.500},0.16)",
+      "type": "color"
+    },
+    "progress-bar": {
+      "value": "{palette.teal.500}",
+      "type": "color"
     }
   },
   "text": {
@@ -2327,7 +2335,7 @@
       "type": "color"
     },
     "actived": {
-      "value": "rgba({palette.purple.500},0.08)",
+      "value": "rgba({palette.teal.500},0.08)",
       "type": "color"
     },
     "label_default": {
