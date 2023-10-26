@@ -1676,7 +1676,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.scarlet.50}",
+      "value": "{palette.lime.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },

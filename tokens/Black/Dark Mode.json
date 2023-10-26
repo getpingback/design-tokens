@@ -1736,7 +1736,7 @@
       "type": "color"
     },
     "color_mark": {
-      "value": "rgba({palette.gray.50},0.16)",
+      "value": "rgba({palette.gray.300},0.16)",
       "type": "color"
     },
     "progress-bar": {
@@ -1826,12 +1826,12 @@
   },
   "links": {
     "default": {
-      "value": "{palette.gray.300}",
+      "value": "{palette.gray.400}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.gray.400}",
+      "value": "{palette.gray.500}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }
