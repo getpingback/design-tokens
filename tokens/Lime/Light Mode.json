@@ -1822,16 +1822,20 @@
     "money": {
       "value": "{palette.green.500}",
       "type": "color"
+    },
+    "mark": {
+      "value": "{palette.lime.900}",
+      "type": "color"
     }
   },
   "links": {
     "default": {
-      "value": "{palette.lime.500}",
+      "value": "{palette.lime.600}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },
     "pressed": {
-      "value": "{palette.lime.600}",
+      "value": "{palette.lime.700}",
       "type": "color",
       "description": "Use para links que já foram pressionados. "
     }

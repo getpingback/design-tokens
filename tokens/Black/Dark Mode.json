@@ -1822,11 +1822,15 @@
     "money": {
       "value": "{palette.green.400}",
       "type": "color"
+    },
+    "mark-copy": {
+      "value": "{palette.neutral.white}",
+      "type": "color"
     }
   },
   "links": {
     "default": {
-      "value": "{palette.gray.400}",
+      "value": "{palette.neutral.white}",
       "type": "color",
       "description": "Use para texto que contém links. "
     },

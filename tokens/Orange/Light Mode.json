@@ -1740,7 +1740,7 @@
       "type": "color"
     },
     "progress-bar": {
-      "value": "{palette.orange.500}",
+      "value": "{palette.orange.400}",
       "type": "color"
     }
   },
@@ -1821,6 +1821,10 @@
     },
     "money": {
       "value": "{palette.green.500}",
+      "type": "color"
+    },
+    "mark": {
+      "value": "{palette.orange.900}",
       "type": "color"
     }
   },

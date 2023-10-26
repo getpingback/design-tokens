@@ -1822,6 +1822,10 @@
     "money": {
       "value": "{palette.green.400}",
       "type": "color"
+    },
+    "mark": {
+      "value": "{palette.purple.200}",
+      "type": "color"
     }
   },
   "links": {
