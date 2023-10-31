@@ -10,10 +10,6 @@
     "lib": ["esnext"],
     "resolveJsonModule": true
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ],
-  "exclude": ["node_modules"]
+  "include": ["src", "*.scss", "index.d.ts"],
+  "exclude": ["node_modules", "src/**/*.spec.ts"]
 }

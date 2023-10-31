@@ -731,16 +731,14 @@
       "description": "Padrão para cards e inputs"
     },
     "1": {
-      "value": [
-        {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "-1",
-          "color": "rgba({palette.neutral.black}, 0.08)",
-          "type": "dropShadow"
-        }
-      ],
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "-1",
+        "color": "rgba({palette.neutral.black}, 0.08)",
+        "type": "dropShadow"
+      },
       "type": "boxShadow",
       "description": "Padrão para headers e tabs. "
     },
@@ -2307,29 +2305,25 @@
   },
   "button": {
     "hover": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3",
-          "color": "rgba({palette.gray.500}, 0.12)",
-          "type": "dropShadow"
-        }
-      ],
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "3",
+        "color": "rgba({palette.gray.500}, 0.12)",
+        "type": "dropShadow"
+      },
       "type": "boxShadow"
     },
     "hover-solid": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3",
-          "color": "rgba({palette.orange.500}, 0.25)",
-          "type": "dropShadow"
-        }
-      ],
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "3",
+        "color": "rgba({palette.orange.500}, 0.25)",
+        "type": "dropShadow"
+      },
       "type": "boxShadow"
     }
   },

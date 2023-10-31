@@ -731,16 +731,14 @@
       "description": "Padrão para cards. "
     },
     "1": {
-      "value": [
-        {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "-1",
-          "color": "rgba({palette.neutral.black}, 0.48)",
-          "type": "dropShadow"
-        }
-      ],
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "-1",
+        "color": "rgba({palette.neutral.black}, 0.48)",
+        "type": "dropShadow"
+      },
       "type": "boxShadow",
       "description": "Padrão para headers e tabs. "
     },
