@@ -1,4 +1,3 @@
-// Enums for fixed string values
 export enum ShadowType {
   DropShadow = "dropShadow",
   InnerShadow = "innerShadow",

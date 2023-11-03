@@ -7,7 +7,7 @@
     "themes"
   ],
   "scripts": {
-    "generate": "yarn run ts-node src/scripts/generateThemes",
+    "generate": "yarn run ts-node generate-themes",
     "build": "rm -rf dist && tsc -p tsconfig.build.json"
   },
   "repository": {
