@@ -55,6 +55,50 @@ Colors in the JSON are provided in RGBA format. The `convertRGBAtoHex` function 
 
 ---
 
+## Generation of CSS Variables Files
+
+The `generateCSSTheme` function generates CSS files from the transformed JSON files. The CSS files are generated in the following format:
+
+```CSS
+.purple-classic-light-mode {
+  --palette-gradiente-1: linear-gradient(106.01deg, #9061F9 33.8%, #BF61F9 102.3%);
+  --palette-gradiente-2: linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);
+  --palette-gradiente-3: linear-gradient(202.2deg, #9061F9 -49.7%, #3F3F46 64.6%);
+}
+```
+
+```CSS
+.purple-classic-dark-mode {
+  --palette-gradiente-1: linear-gradient(106.01deg, #9061F9 33.8%, #BF61F9 102.3%);
+  --palette-gradiente-2: linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);
+  --palette-gradiente-3: linear-gradient(202.2deg, #9061F9 -49.7%, #3F3F46 64.6%);
+}
+```
+
+---
+
+## Generation of main.css File
+
+The `appendThemeToMainCss` function generates a `main.css` file that contains all the CSS variables for all the themes. This file is used to provide the CSS variables to the application.
+
+```CSS
+@import url("./black/dark-mode.css");
+
+@import url("./black/light-mode.css");
+
+@import url("./blue/dark-mode.css");
+
+@import url("./blue/light-mode.css");
+
+@import url("./bronze/dark-mode.css");
+
+@import url("./bronze/light-mode.css");
+
+...
+```
+
+---
+
 ## Generation of New Files in the `./themes` Directory
 
 Post-transformation, new JSON and CSS files representing the themes are written to the `./themes` directory. The directory structure is as follows:
