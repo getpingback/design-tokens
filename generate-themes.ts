@@ -1,8 +1,15 @@
 import fs from "fs";
 import path from "path";
-import { toKebabCase, makeJsonTransformations } from "./src/utils";
+import {
+  toKebabCase,
+  makeJsonTransformations,
+  generateCSSTheme,
+  appendThemeToMainCss,
+} from "./src/utils";
 
 const TOKENS_FOLDER_PATH = "./tokens";
+
+fs.writeFileSync("./themes/main.css", "");
 
 if (fs.existsSync(TOKENS_FOLDER_PATH)) {
   const colorFolders = fs.readdirSync(TOKENS_FOLDER_PATH);
@@ -20,20 +27,34 @@ if (fs.existsSync(TOKENS_FOLDER_PATH)) {
         const jsonStr = fs.readFileSync(jsonFilePath, "utf-8");
         const json = JSON.parse(jsonStr);
 
-        // TRANSFORMATIONS
-        const transformedJson = makeJsonTransformations(json);
-
-        // WRITING CONTENT FILES
+        // FILE NAMES
         const colorFolderName = toKebabCase(colorFolder);
         const jsonFileName = toKebabCase(jsonFile);
+        const cssFileName = toKebabCase(jsonFile).replace(".json", ".css");
 
+        // JSON TRANSFORMATIONS
+        const transformedJson = makeJsonTransformations(json);
+        const transformedJsonStr = JSON.stringify(transformedJson);
+
+        // CSS THEME GENERATION
+        const cssThemeClassName = `${colorFolderName}-${jsonFileName.replace(
+          ".json",
+          ""
+        )}`;
+        const cssThemeVars = generateCSSTheme(transformedJson, "", cssThemeClassName);
+
+        // PATHS
         const colorDirPath = `themes/${colorFolderName}`;
-        const colorFilePath = `${colorDirPath}/${jsonFileName}`;
+        const colorThemeJsonFilePath = `${colorDirPath}/${jsonFileName}`;
+        const colorThemeCssFilePath = `${colorDirPath}/${cssFileName}`;
 
+        // CREATE DIRS AND FILES
         const isColorDirExists = fs.existsSync(colorDirPath);
         if (!isColorDirExists) fs.mkdirSync(colorDirPath, { recursive: true });
 
-        fs.writeFileSync(colorFilePath, JSON.stringify(transformedJson));
+        fs.writeFileSync(colorThemeJsonFilePath, transformedJsonStr);
+        fs.writeFileSync(colorThemeCssFilePath, cssThemeVars);
+        appendThemeToMainCss(colorFolderName, cssFileName);
       });
     }
   });

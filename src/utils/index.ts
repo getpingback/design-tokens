@@ -1,4 +1,5 @@
-import { makeJsonTransformations } from "./jsonTransformation";
+export * from "./jsonTransformation";
+export * from "./cssTransformation";
 
 export const toKebabCase = (str: string) => {
   return str
@@ -6,5 +7,3 @@ export const toKebabCase = (str: string) => {
     .replace(/[\s_]+/g, "-")
     .toLowerCase();
 };
-
-export { makeJsonTransformations };
