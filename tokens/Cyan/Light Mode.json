@@ -1674,7 +1674,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.cyan.50}",
+      "value": "{palette.gray.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
