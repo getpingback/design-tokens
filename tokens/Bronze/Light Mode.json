@@ -2145,7 +2145,7 @@
     },
     "input_filled": {
       "value": {
-        "color": "{palette.purple.500}",
+        "color": "{palette.bronze.500}",
         "width": "1px",
         "style": "solid"
       },
