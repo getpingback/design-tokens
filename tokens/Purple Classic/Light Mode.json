@@ -2276,7 +2276,7 @@
       "description": "Padrão default do background das pill de de react"
     },
     "react_actived": {
-      "value": "rgba({palette.purple.400}, 0.08)",
+      "value": "rgba({palette.purple.400}, 0.12)",
       "type": "color",
       "description": "Padrão do background das pill de de react ativadas."
     },
