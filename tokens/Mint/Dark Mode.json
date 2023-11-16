@@ -1714,7 +1714,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.mint.300}",
+      "value": "rgba({palette.mint.900}, 0.05)",
       "type": "color"
     },
     "color_ghost": {
@@ -2007,7 +2007,7 @@
     },
     "input_filled": {
       "value": {
-        "color": "{palette.purple.500}",
+        "color": "{palette.mint.500}",
         "width": "1px",
         "style": "solid"
       },

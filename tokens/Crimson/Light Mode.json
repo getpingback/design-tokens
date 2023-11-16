@@ -1714,7 +1714,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
     },
     "color": {
-      "value": "{palette.crimson.600}",
+      "value": "rgba({palette.crimson.50}, 0.45)",
       "type": "color"
     },
     "color_ghost": {

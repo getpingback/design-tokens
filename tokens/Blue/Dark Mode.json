@@ -1714,7 +1714,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.blue.400}",
+      "value": "rgba({palette.blue.900}, 0.05)",
       "type": "color"
     },
     "color_ghost": {

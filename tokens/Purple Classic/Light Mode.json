@@ -1674,7 +1674,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.purple.50}",
+      "value": "{palette.gray.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
@@ -1714,8 +1714,9 @@
       "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
     },
     "color": {
-      "value": "{palette.purple.500}",
-      "type": "color"
+      "value": "rgba({palette.purple.50}, 0.45)",
+      "type": "color",
+      "$extensions": {}
     },
     "color_ghost": {
       "value": "rgba({palette.purple.500},0.12)",
