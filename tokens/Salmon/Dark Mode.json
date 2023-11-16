@@ -6,7 +6,7 @@
         "type": "color"
       },
       "2": {
-        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);",
+        "value": "linear-gradient(75deg, {palette.red.50} 0%, {palette.red.400} 20%, {palette.red.500} 40%, {palette.red.200} 100%);",
         "type": "color"
       },
       "3": {
