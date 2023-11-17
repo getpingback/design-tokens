@@ -829,6 +829,27 @@
       ],
       "type": "boxShadow",
       "description": "Padrão para modais."
+    },
+    "paywall": {
+      "value": [
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "40",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.02)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
     }
   },
   "bottom_sheet": {
@@ -2386,26 +2407,5 @@
       "value": "rgba( {palette.blue.500}, 0.08)",
       "type": "color"
     }
-  },
-  "paywall": {
-    "value": [
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "40",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.04)",
-        "type": "dropShadow"
-      },
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "24",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.02)",
-        "type": "dropShadow"
-      }
-    ],
-    "type": "boxShadow"
   }
 }
