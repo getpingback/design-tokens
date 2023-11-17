@@ -832,25 +832,27 @@
     }
   },
   "paywall": {
-    "value": [
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "40",
-        "spread": "0",
-        "color": "rgba( {palette.neutral.black}, 0.12)",
-        "type": "dropShadow"
-      },
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "24",
-        "spread": "0",
-        "color": "rgba( {palette.neutral.black}, 0.08)",
-        "type": "dropShadow"
-      }
-    ],
-    "type": "boxShadow"
+    "0": {
+      "value": [
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "40",
+          "spread": "0",
+          "color": "rgba( {palette.neutral.black}, 0.12)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba( {palette.neutral.black}, 0.08)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
   },
   "bottom_sheet": {
     "1": {

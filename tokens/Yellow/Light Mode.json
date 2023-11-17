@@ -2388,24 +2388,26 @@
     }
   },
   "paywall": {
-    "value": [
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "40",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.04)",
-        "type": "dropShadow"
-      },
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "24",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.02)",
-        "type": "dropShadow"
-      }
-    ],
-    "type": "boxShadow"
+    "0": {
+      "value": [
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "40",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.02)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
   }
 }

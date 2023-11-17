@@ -176,17 +176,7 @@
 --modals-3: 0px 6px 24px -3px #00000014, 0px 0px 1px 1px #00000014;
 --modals-4: 0px 8px 32px -4px #00000014, 0px 0px 1px 1px #00000014;
 --modals-5: 0px 10px 40px -5px #00000014, 0px 0px 1px 1px #00000014;
---paywall-value-0: undefined;
---paywall-value-1: undefined;
---paywall-type-0: undefined;
---paywall-type-1: undefined;
---paywall-type-2: undefined;
---paywall-type-3: undefined;
---paywall-type-4: undefined;
---paywall-type-5: undefined;
---paywall-type-6: undefined;
---paywall-type-7: undefined;
---paywall-type-8: undefined;
+--paywall-0: 0px -24px 40px 0px  #3F3F460a, 0px -24px 24px 0px  #3F3F460a;
 --bottom_sheet-1: 0px -2px 8px -1px #00000014, 0px 0px 0px 1px #00000014;
 --bottom_sheet-2: 0px -4px 16px -2px #00000014, 0px 0px 1px 1px #00000014;
 --bottom_sheet-3: 0px -6px 24px -3px #00000014, 0px 0px 1px 1px #00000014;

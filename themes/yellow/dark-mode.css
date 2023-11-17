@@ -595,15 +595,5 @@
 --chart-bars:  #76A9FA a6;
 --chart-bars_2:  #3F83F8 40;
 --chart-bars_3:  #3F83F8 29;
---paywall-value-0: undefined;
---paywall-value-1: undefined;
---paywall-type-0: undefined;
---paywall-type-1: undefined;
---paywall-type-2: undefined;
---paywall-type-3: undefined;
---paywall-type-4: undefined;
---paywall-type-5: undefined;
---paywall-type-6: undefined;
---paywall-type-7: undefined;
---paywall-type-8: undefined;
+--paywall-0: 0px -24px 40px 0px  #0000001f, 0px -24px 24px 0px  #0000001f;
 }
