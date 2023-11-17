@@ -1,5 +1,5 @@
 .purple-classic-light-mode {--palette-gradiente-1: linear-gradient(106.01deg, #9061F9 33.8%, #BF61F9 102.3%);
---palette-gradiente-2: linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);
+--palette-gradiente-2: linear-gradient(75deg, #F6F5FF 0%, #9061F9 20%, #7E3AF2 40%, #CABFFD 100%);
 --palette-gradiente-3: linear-gradient(202.2deg, #9061F9 -49.7%, #3F3F46 64.6%);
 --palette-gradiente-active_menu: linear-gradient(270deg, #7E3AF200 0%, #7E3AF200 100%);
 --palette-gradiente-active_menu-copy: linear-gradient(270deg, #7E3AF200 0%, #7E3AF200 100%);
@@ -176,6 +176,17 @@
 --modals-3: 0px 6px 24px -3px #00000014, 0px 0px 1px 1px #00000014;
 --modals-4: 0px 8px 32px -4px #00000014, 0px 0px 1px 1px #00000014;
 --modals-5: 0px 10px 40px -5px #00000014, 0px 0px 1px 1px #00000014;
+--paywall-value-0: undefined;
+--paywall-value-1: undefined;
+--paywall-type-0: undefined;
+--paywall-type-1: undefined;
+--paywall-type-2: undefined;
+--paywall-type-3: undefined;
+--paywall-type-4: undefined;
+--paywall-type-5: undefined;
+--paywall-type-6: undefined;
+--paywall-type-7: undefined;
+--paywall-type-8: undefined;
 --bottom_sheet-1: 0px -2px 8px -1px #00000014, 0px 0px 0px 1px #00000014;
 --bottom_sheet-2: 0px -4px 16px -2px #00000014, 0px 0px 1px 1px #00000014;
 --bottom_sheet-3: 0px -6px 24px -3px #00000014, 0px 0px 1px 1px #00000014;
@@ -417,7 +428,7 @@
 --font-pill-fontSize: 10px;
 --font-pill-textCase: uppercase;
 --font-pill-letterSpacing: 1;
---background-default: #F6F5FF;
+--background-default: #FAFAFA;
 --background-accent: #FFFFFF;
 --background-neutral: #D4D4D840;
 --background-informative: #9061F914;
@@ -425,7 +436,7 @@
 --background-caution: #FACA1514;
 --background-error: #F0525214;
 --background-warning: #FF8A4C14;
---background-color: #9061F9;
+--background-color: #F6F5FF73;
 --background-color_ghost: #9061F91f;
 --background-tolltip: #3F3F46;
 --background-blank_avatar: #F4F4F5;
@@ -563,7 +574,7 @@
 --tabs-label: #52525B;
 --tabs-bg_neutro:  #71717A0a;
 --pill-default: #71717A14;
---pill-react_actived: #AC94FA14;
+--pill-react_actived: #AC94FA1f;
 --pill-label_default: #71717A;
 --pill-label_default-hovered: #52525B;
 --pill-label_actived: #9061F9;
@@ -595,15 +606,4 @@
 --chart-bars:  #3F83F873;
 --chart-bars_2:  #3F83F829;
 --chart-bars_3:  #3F83F814;
---paywall-value-0: undefined;
---paywall-value-1: undefined;
---paywall-type-0: undefined;
---paywall-type-1: undefined;
---paywall-type-2: undefined;
---paywall-type-3: undefined;
---paywall-type-4: undefined;
---paywall-type-5: undefined;
---paywall-type-6: undefined;
---paywall-type-7: undefined;
---paywall-type-8: undefined;
 }

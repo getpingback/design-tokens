@@ -1,5 +1,5 @@
 .indigo-dark-mode {--palette-gradiente-1: linear-gradient(106.01deg, #9061F9 33.8%, #BF61F9 102.3%);
---palette-gradiente-2: linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);
+--palette-gradiente-2: linear-gradient(75deg, #CABFFD 0%, #5521B5 20%, #4A1D96 40%, #9061F9 100%);
 --palette-gradiente-3: linear-gradient(202.2deg, #9061F9 -49.7%, #3F3F46 64.6%);
 --palette-gradiente-active_menu: linear-gradient(270deg, #AC94FA00 0%, #AC94FA00 100%);
 --palette-gradiente-active_menu-copy: linear-gradient(270deg, #7E3AF200 0%, #7E3AF200 100%);
@@ -425,7 +425,7 @@
 --background-caution: #FACA151f;
 --background-warning: #FF8A4C29;
 --background-error: #F0525229;
---background-color: #5521B5;
+--background-color: #4A1D960d;
 --background-color_ghost: #AC94FA1f;
 --background-tolltip: #3F3F46;
 --background-blank_avatar: #3F3F46;
@@ -491,7 +491,7 @@
 --border-input_valid-color: #31C48D;
 --border-input_valid-width: 1px;
 --border-input_valid-style: solid;
---border-input_filled-color: #9061F9;
+--border-input_filled-color: #5521B5;
 --border-input_filled-width: 1px;
 --border-input_filled-style: solid;
 --border-button_outlined-color: #71717A;
