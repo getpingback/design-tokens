@@ -6,7 +6,7 @@
         "type": "color"
       },
       "2": {
-        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%)",
+        "value": "linear-gradient(75deg, {palette.teal.50} 0%, {palette.teal.500} 20%, {palette.teal.600} 40%, {palette.teal.300} 100%);",
         "type": "color"
       },
       "3": {
@@ -1674,7 +1674,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.teal.50}",
+      "value": "{palette.gray.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
@@ -1714,7 +1714,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
     },
     "color": {
-      "value": "{palette.teal.500}",
+      "value": "rgba({palette.teal.50}, 0.45)",
       "type": "color"
     },
     "color_ghost": {
@@ -2145,7 +2145,7 @@
     },
     "input_filled": {
       "value": {
-        "color": "{palette.purple.500}",
+        "color": "{palette.teal.500}",
         "width": "1px",
         "style": "solid"
       },
@@ -2276,7 +2276,7 @@
       "description": "Padrão default do background das pill de de react"
     },
     "react_actived": {
-      "value": "rgba({palette.purple.400}, 0.08)",
+      "value": "rgba({palette.cyan.400}, 0.12)",
       "type": "color",
       "description": "Padrão do background das pill de de react ativadas."
     },

@@ -6,7 +6,7 @@
         "type": "color"
       },
       "2": {
-        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%);",
+        "value": "linear-gradient(75deg, {palette.purple.300} 0%, {palette.purple.800} 20%, {palette.purple.900} 40%, {palette.purple.500} 100%);",
         "type": "color"
       },
       "3": {
@@ -1714,7 +1714,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem erro. Ex: Callout"
     },
     "color": {
-      "value": "{palette.purple.800}",
+      "value": "rgba({palette.purple.900}, 0.05)",
       "type": "color"
     },
     "color_ghost": {
@@ -2007,7 +2007,7 @@
     },
     "input_filled": {
       "value": {
-        "color": "{palette.purple.500}",
+        "color": "{palette.purple.800}",
         "width": "1px",
         "style": "solid"
       },

@@ -6,7 +6,7 @@
         "type": "color"
       },
       "2": {
-        "value": "linear-gradient(71.21deg, #F2ECFF 0%, #8F59FF 56.51%, #793CF9 76.6%, #854AFF 108.78%, #D3A7FA 133.88%)",
+        "value": "linear-gradient(75deg, {palette.purple.50} 0%, {palette.purple.500} 20%, {palette.purple.600} 40%, {palette.purple.300} 100%);",
         "type": "color"
       },
       "3": {
@@ -829,6 +829,27 @@
       ],
       "type": "boxShadow",
       "description": "Padrão para modais."
+    },
+    "paywall": {
+      "value": [
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "40",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.04)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "-24",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba( {palette.gray.700}, 0.02)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
     }
   },
   "bottom_sheet": {
@@ -1674,7 +1695,7 @@
   },
   "background": {
     "default": {
-      "value": "{palette.purple.50}",
+      "value": "{palette.gray.50}",
       "type": "color",
       "description": "Cor padrão para fundo de páginas."
     },
@@ -1714,7 +1735,7 @@
       "description": "Cor padrão para fundo de componentes que comuniquem alerta. Ex: Callout"
     },
     "color": {
-      "value": "{palette.purple.500}",
+      "value": "rgba({palette.purple.50}, 0.45)",
       "type": "color"
     },
     "color_ghost": {
@@ -2276,7 +2297,7 @@
       "description": "Padrão default do background das pill de de react"
     },
     "react_actived": {
-      "value": "rgba({palette.purple.400}, 0.08)",
+      "value": "rgba({palette.purple.400}, 0.12)",
       "type": "color",
       "description": "Padrão do background das pill de de react ativadas."
     },
@@ -2386,26 +2407,5 @@
       "value": "rgba( {palette.blue.500}, 0.08)",
       "type": "color"
     }
-  },
-  "paywall": {
-    "value": [
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "40",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.04)",
-        "type": "dropShadow"
-      },
-      {
-        "x": "0",
-        "y": "-24",
-        "blur": "24",
-        "spread": "0",
-        "color": "rgba( {palette.gray.700}, 0.02)",
-        "type": "dropShadow"
-      }
-    ],
-    "type": "boxShadow"
   }
 }
