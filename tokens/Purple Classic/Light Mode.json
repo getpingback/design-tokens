@@ -2025,6 +2025,10 @@
     "destructive": {
       "value": "{palette.red.500}",
       "type": "color"
+    },
+    "carousel-default": {
+      "value": "{palette.gray.300}",
+      "type": "color"
     }
   },
   "badge": {

@@ -2133,6 +2133,10 @@
     "destructive": {
       "value": "{palette.red.500}",
       "type": "color"
+    },
+    "carousel-default": {
+      "value": "{palette.gray.700}",
+      "type": "color"
     }
   },
   "badge": {
