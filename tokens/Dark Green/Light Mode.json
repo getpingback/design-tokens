@@ -1734,7 +1734,7 @@
       "type": "color"
     },
     "color_mark": {
-      "value": "rgba({palette.green.500},0.16)",
+      "value": "rgba({palette.green.800},0.16)",
       "type": "color"
     },
     "progress-bar": {
