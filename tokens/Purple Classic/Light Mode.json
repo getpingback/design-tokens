@@ -1988,6 +1988,10 @@
     "check_list": {
       "value": "{palette.green.400}",
       "type": "color"
+    },
+    "card": {
+      "value": "{palette.gray.50}",
+      "type": "color"
     }
   },
   "buttons": {
