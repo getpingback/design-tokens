@@ -2007,7 +2007,7 @@
     },
     "input_filled": {
       "value": {
-        "color": "{palette.yellow.500}",
+        "color": "{palette.yellow.200}",
         "width": "1px",
         "style": "solid"
       },
@@ -2325,7 +2325,7 @@
         "y": "0",
         "blur": "0",
         "spread": "3",
-        "color": "rgba({palette.yellow.400}, 0.25)",
+        "color": "rgba({palette.yellow.200}, 0.25)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
