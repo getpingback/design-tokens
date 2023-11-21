@@ -1763,6 +1763,10 @@
     "progress-bar": {
       "value": "{palette.purple.500}",
       "type": "color"
+    },
+    "overlay": {
+      "value": "rgba({palette.gray.900},0.08)",
+      "type": "color"
     }
   },
   "text": {

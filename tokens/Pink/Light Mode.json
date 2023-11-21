@@ -1740,6 +1740,10 @@
     "progress-bar": {
       "value": "{palette.pink.500}",
       "type": "color"
+    },
+    "overlay": {
+      "value": "rgba({palette.gray.50},0.08)",
+      "type": "color"
     }
   },
   "text": {
