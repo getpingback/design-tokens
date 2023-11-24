@@ -430,8 +430,9 @@
 --background-tolltip: #3F3F46;
 --background-blank_avatar: #3F3F46;
 --background-blur_gradiente: linear-gradient(180deg, 3926d9 0%, 3926d9 100%);
---background-color_mark:  #046C4E 29;
+--background-color_mark:  #0E9F6E3d;
 --background-progress-bar: #03543F;
+--background-overlay: #18181B14;
 --text-secondary: #F4F4F5;
 --text-primary: #FAFAFA;
 --text-tertiary: #E4E4E7;
@@ -476,6 +477,7 @@
 --icons-error_accent_bg: #F980801f;
 --icons-inverse: #F3FAF7;
 --icons-check_list: #31C48D;
+--icons-card: #FAFAFA;
 --border-divider-color: #3F3F46;
 --border-divider-width: 1px;
 --border-divider-style: solid;
@@ -533,6 +535,7 @@
 --buttons-disabled: #3F3F46;
 --buttons-label_color: #31C48D;
 --buttons-destructive: #F05252;
+--buttons-carousel-default: #3F3F46;
 --badge-counter_text: #E4E4E7;
 --badge-counter_bg: #F4F4F51f;
 --badge-new_text: #31C48D;

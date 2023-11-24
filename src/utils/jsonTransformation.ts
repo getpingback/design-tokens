@@ -8,7 +8,7 @@ import { ThemeConfig } from "../types/tokens-studio";
  * @param jsonData The JSON object containing the actual values to replace the placeholders with.
  * @returns The processed string with all placeholder references replaced with actual values from the JSON object.
  */
-const applyReferenceValue = (str: string, jsonData: any) => {
+export const applyReferenceValue = (str: string, jsonData: any) => {
   str = str.replace(";", "");
   const regex = /{([^}]+)}/g;
   const matches = str.match(regex);
@@ -36,7 +36,7 @@ const applyReferenceValue = (str: string, jsonData: any) => {
  * @param rgbaString The RGBA color string to be converted.
  * @returns The hexadecimal representation of the RGBA color, including the alpha transparency value.
  */
-const convertRGBAtoHex = (rgbaString: string) => {
+export const convertRGBAtoHex = (rgbaString: string) => {
   const regex = /rgba\(([^,]+),([^)]+)\)/g;
   const rgbaValues = [...rgbaString.matchAll(regex)];
 
@@ -60,7 +60,7 @@ const convertRGBAtoHex = (rgbaString: string) => {
  * @param referenceObj The reference object providing the values for the references.
  * @returns The processed object with all reference values applied and RGBA colors converted to hexadecimal format.
  */
-const changeReferences = (currentObj: any, referenceObj: ThemeConfig) => {
+export const changeReferences = (currentObj: any, referenceObj: ThemeConfig) => {
   const objKeys = Object.keys(currentObj);
 
   objKeys.forEach((key) => {
@@ -84,7 +84,7 @@ const changeReferences = (currentObj: any, referenceObj: ThemeConfig) => {
  * @param jsonData The JSON object to clean.
  * @returns A new JSON object with unused properties removed and values directly assigned.
  */
-const cleanJson = (jsonData: any) => {
+export const cleanJson = (jsonData: any) => {
   const newJsonData = {} as any;
 
   Object.keys(jsonData).forEach((firstKey) => {

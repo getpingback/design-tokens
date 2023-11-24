@@ -432,6 +432,7 @@
 --background-blur_gradiente: linear-gradient(180deg, 255fe01 0%, 255fe01 100%);
 --background-color_mark: #03543F29;
 --background-progress-bar: #03543F;
+--background-overlay: #FAFAFA14;
 --text-primary: #3F3F46;
 --text-secondary: #52525B;
 --text-tertiary: #71717A;
@@ -476,6 +477,7 @@
 --icons-error_accent: #C81E1E;
 --icons-error_accent_bg: #C81E1E1f;
 --icons-check_list: #31C48D;
+--icons-card: #FAFAFA;
 --buttons-solid_default: #03543F;
 --buttons-ghost_bg: #52525B14;
 --buttons-ghost_bg-color:  #F3FAF71f;
@@ -485,6 +487,7 @@
 --buttons-disabled: #E4E4E7;
 --buttons-label_color: #057A55;
 --buttons-destructive: #F05252;
+--buttons-carousel-default: #D4D4D8;
 --badge-counter_text: #71717A;
 --badge-counter_bg: #A1A1AA29;
 --badge-new_text: #057A55;
