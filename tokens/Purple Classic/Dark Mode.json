@@ -2168,6 +2168,10 @@
     "carousel-default": {
       "value": "{palette.gray.700}",
       "type": "color"
+    },
+    "pressed_bg": {
+      "value": "rgba({palette.gray.600}, 0.12)",
+      "type": "color"
     }
   },
   "badge": {
