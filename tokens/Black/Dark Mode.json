@@ -1825,7 +1825,7 @@
       "value": "{palette.green.400}",
       "type": "color"
     },
-    "mark-copy": {
+    "mark": {
       "value": "{palette.neutral.white}",
       "type": "color"
     }
