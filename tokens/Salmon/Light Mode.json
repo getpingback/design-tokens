@@ -1744,6 +1744,14 @@
     "overlay": {
       "value": "rgba({palette.gray.50},0.08)",
       "type": "color"
+    },
+    "color-overlay": {
+      "value": "rgba( {palette.red.800} , 0.85)",
+      "type": "color"
+    },
+    "color-solid": {
+      "value": "{palette.red.400}",
+      "type": "color"
     }
   },
   "text": {
