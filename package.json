@@ -1,5 +1,5 @@
 {
-  "name": "design-tokens",
+  "name": "@getpingback/design-tokens",
   "version": "1.0.0",
   "description": "Design tokens for Pingback",
   "type": "module",
