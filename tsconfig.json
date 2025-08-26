@@ -10,6 +10,6 @@
     "lib": ["esnext"],
     "resolveJsonModule": true
   },
-  "include": ["src", "*.scss", "index.d.ts", "tokens-studio.d.ts", "generate-themes.ts"],
-  "exclude": ["node_modules", "src/**/*.spec.ts"]
+  "include": ["src", "*.scss"],
+  "exclude": ["node_modules"]
 }
