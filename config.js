@@ -16,18 +16,19 @@ const filterTheme = (contents, modeToDelete) => {
 StyleDictionary.registerFormat({
   name: 'css/variables-themed',
   format: async ({ dictionary, file, options }) => {
-    const { outputReferences, theme } = options;
+    const { theme, outputReferences } = options;
     const header = await fileHeader({ file });
-    return (
-      header +
-      `.${theme} {\n` +
-      formattedVariables({
-        format: 'css',
-        dictionary,
-        outputReferences,
-      }) +
-      '\n}\n'
-    );
+
+    const variables = formattedVariables({
+      format: 'css',
+      dictionary,
+      outputReferences,
+      usesDtcg: true,
+    });
+
+    console.log(variables);
+
+    return header + `.${theme} {\n` + variables + '\n}\n';
   },
 });
 
@@ -91,7 +92,7 @@ const darkSD = new StyleDictionary({
       files: [
         {
           destination: 'dark.css',
-          format: 'css/variables',
+          format: 'css/variables-themed',
           options: {
             theme: 'dark',
             outputReferences: true,
