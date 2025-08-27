@@ -39,7 +39,7 @@ jobs:
           echo //npm.pkg.github.com/:_authToken=${{ secrets.NPM_PB_TOKEN }} >> .npmrc
 
       - name: Cache node modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: yarn-deps-${{ hashFiles('yarn.lock') }}
