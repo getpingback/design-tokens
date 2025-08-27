@@ -92,6 +92,10 @@ const darkSD = new StyleDictionary({
         {
           destination: 'dark.css',
           format: 'css/variables',
+          options: {
+            theme: 'dark',
+            outputReferences: true,
+          },
         },
       ],
     },
