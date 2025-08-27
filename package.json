@@ -1,17 +1,25 @@
 {
-  "name": "design-tokens",
-  "version": "1.0.0",
+  "name": "@getpingback/design-tokens",
+  "version": "1.0.1",
   "description": "Design tokens for Pingback",
   "type": "module",
-  "main": "./dist/js/variables.js",
-  "style": "./dist/css/globals.css",
+  "main": "./dist/js/light.js",
+  "style": "./dist/css/light.css",
   "exports": {
     ".": {
-      "import": "./dist/js/variables.js",
-      "require": "./dist/js/variables.js"
+      "import": "./dist/js/light.js",
+      "require": "./dist/js/light.js"
     },
-    "./css": "./dist/css/globals.css",
-    "./js": "./dist/js/variables.js"
+    "./light": {
+      "import": "./dist/js/light.js",
+      "require": "./dist/js/light.js"
+    },
+    "./light.css": "./dist/css/light.css",
+    "./dark": {
+      "import": "./dist/js/dark.js",
+      "require": "./dist/js/dark.js"
+    },
+    "./dark.css": "./dist/css/dark.css"
   },
   "files": [
     "dist"
