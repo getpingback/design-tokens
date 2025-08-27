@@ -16,24 +16,25 @@ jobs:
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
-      - name: Use Node.js 16
+      - name: Use Node.js 22
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 22
 
-      - name:  'Automated Version Bump'
-        uses:  'phips28/gh-action-bump-version@master'
+      - name: 'Automated Version Bump'
+        uses: 'phips28/gh-action-bump-version@master'
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
-          minor-wording:  'add,Adds,new'
-          major-wording:  'MAJOR,cut-major'
-          patch-wording:  'patch,fixes'     # Providing patch-wording will override commits
-                                            # defaulting to a patch bump.
-          rc-wording:     'RELEASE,alpha'
+          minor-wording: 'add,Adds,new'
+          major-wording: 'MAJOR,cut-major'
+          patch-wording:
+            'patch,fixes' # Providing patch-wording will override commits
+            # defaulting to a patch bump.
+          rc-wording: 'RELEASE,alpha'
 
       - name: Create .npmrc file
-        run:  |
+        run: |
           echo @getpingback:registry=https://npm.pkg.github.com >> .npmrc
           echo //npm.pkg.github.com/:_authToken=${{ secrets.NPM_PB_TOKEN }} >> .npmrc
 
@@ -50,5 +51,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn install --frozen-lockfile
-          yarn generate
+          yarn run build
           yarn publish --access public --non-interactive --no-git-tag-version
