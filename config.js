@@ -26,8 +26,6 @@ StyleDictionary.registerFormat({
       usesDtcg: true,
     });
 
-    console.log(variables);
-
     return header + `.${theme} {\n` + variables + '\n}\n';
   },
 });
