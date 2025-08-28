@@ -13,23 +13,6 @@ const filterTheme = (contents, modeToDelete) => {
   return tokens;
 };
 
-StyleDictionary.registerFormat({
-  name: 'css/variables-themed',
-  format: async ({ dictionary, file, options }) => {
-    const { theme, outputReferences } = options;
-    const header = await fileHeader({ file });
-
-    const variables = formattedVariables({
-      format: 'css',
-      dictionary,
-      outputReferences,
-      usesDtcg: true,
-    });
-
-    return header + `.${theme} {\n` + variables + '\n}\n';
-  },
-});
-
 StyleDictionary.registerParser({
   name: 'light-parser',
   pattern: /\.json$/,
@@ -90,9 +73,9 @@ const darkSD = new StyleDictionary({
       files: [
         {
           destination: 'dark.css',
-          format: 'css/variables-themed',
+          format: 'css/variables',
           options: {
-            theme: 'dark',
+            selector: '.dark',
             outputReferences: true,
           },
         },
