@@ -76,7 +76,6 @@ const darkSD = new StyleDictionary({
           format: 'css/variables',
           options: {
             selector: '.dark',
-            outputReferences: true,
           },
         },
       ],
