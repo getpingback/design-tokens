@@ -1,6 +1,6 @@
 {
   "name": "@getpingback/design-tokens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Design tokens for Pingback",
   "type": "module",
   "main": "./dist/js/light.js",
