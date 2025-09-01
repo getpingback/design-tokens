@@ -33,11 +33,6 @@ jobs:
             # defaulting to a patch bump.
           rc-wording: 'RELEASE,alpha'
 
-      - name: Create .npmrc file
-        run: |
-          echo @getpingback:registry=https://npm.pkg.github.com >> .npmrc
-          echo //npm.pkg.github.com/:_authToken=${{ secrets.NPM_PB_TOKEN }} >> .npmrc
-
       - name: Cache node modules
         uses: actions/cache@v4
         with:
@@ -48,7 +43,7 @@ jobs:
 
       - name: Publishing package
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PB_TOKEN }}
         run: |
           yarn install --frozen-lockfile
           yarn run build
