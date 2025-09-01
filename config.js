@@ -1,6 +1,6 @@
 import StyleDictionary from 'style-dictionary';
-import { fileHeader, formattedVariables } from 'style-dictionary/utils';
 import { register } from '@tokens-studio/sd-transforms';
+import { removeCompoundTypography } from './utils/utils.js';
 
 register(StyleDictionary, { excludeParentKeys: true });
 
@@ -10,7 +10,7 @@ const filterTheme = (contents, modeToDelete) => {
     delete tokens[modeToDelete];
   }
 
-  return tokens;
+  return removeCompoundTypography(tokens) ?? {};
 };
 
 StyleDictionary.registerParser({
