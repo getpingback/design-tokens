@@ -14,12 +14,16 @@
       "import": "./dist/js/light.js",
       "require": "./dist/js/light.js"
     },
-    "./light.css": "./dist/css/light.css",
     "./dark": {
       "import": "./dist/js/dark.js",
       "require": "./dist/js/dark.js"
     },
-    "./dark.css": "./dist/css/dark.css"
+    "./light.css": {
+      "default": "./dist/css/light.css"
+    },
+    "./dark.css": {
+      "default": "./dist/css/dark.css"
+    }
   },
   "files": [
     "dist"
