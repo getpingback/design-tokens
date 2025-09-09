@@ -10,19 +10,21 @@
       "import": "./dist/js/light.js",
       "require": "./dist/js/light.js"
     },
-    "./light": {
+    "./dist/js/light": {
       "import": "./dist/js/light.js",
       "require": "./dist/js/light.js"
     },
-    "./dark": {
+    "./dist/js/dark": {
       "import": "./dist/js/dark.js",
       "require": "./dist/js/dark.js"
     },
-    "./light.css": {
-      "default": "./dist/css/light.css"
+    "./dist/css/light.css": {
+      "import": "./dist/css/light.css",
+      "require": "./dist/css/light.css"
     },
-    "./dark.css": {
-      "default": "./dist/css/dark.css"
+    "./dist/css/dark.css": {
+      "import": "./dist/css/dark.css",
+      "require": "./dist/css/dark.css"
     }
   },
   "files": [
