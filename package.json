@@ -5,14 +5,14 @@
   "type": "module",
   "main": "./dist/js/light.js",
   "files": [
-    "dist"
+    "dist",
+    "dist/*.css",
+    "dist/*.js"
   ],
   "exports": {
-    "./css/light.css": "./dist/css/light.css",
-    "./css/dark.css": "./dist/css/dark.css",
-    "./js/light.js": "./dist/js/light.js",
-    "./js/dark.js": "./dist/js/dark.js",
-    ".": "./dist/js/light.js"
+    ".": "./dist/js/light.js",
+    "./css/*": "./dist/css/*",
+    "./js/*": "./dist/js/*"
   },
   "scripts": {
     "build": "node config.js"
