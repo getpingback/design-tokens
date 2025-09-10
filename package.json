@@ -1,12 +1,19 @@
 {
   "name": "@getpingback/design-tokens",
-  "version": "1.8.4",
+  "version": "1.8.3",
   "description": "Design tokens for Pingback",
   "type": "module",
-  "main": "./dist",
+  "main": "./dist/js/light.js",
   "files": [
     "dist"
   ],
+  "exports": {
+    "./css/light.css": "./dist/css/light.css",
+    "./css/dark.css": "./dist/css/dark.css",
+    "./js/light.js": "./dist/js/light.js",
+    "./js/dark.js": "./dist/js/dark.js",
+    ".": "./dist/js/light.js"
+  },
   "scripts": {
     "build": "node config.js"
   },
