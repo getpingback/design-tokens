@@ -3,18 +3,7 @@
   "version": "1.8.2",
   "description": "Design tokens for Pingback",
   "type": "module",
-  "main": "./dist/js/light.js",
-  "style": "./dist/css/light.css",
-  "exports": {
-    ".": {
-      "import": "./dist/js/light.js",
-      "require": "./dist/js/light.js"
-    },
-    "./dist/*.css": {
-      "import": "./dist/*.css",
-      "require": "./dist/*.css"
-    }
-  },
+  "main": "./dist",
   "files": [
     "dist"
   ],
