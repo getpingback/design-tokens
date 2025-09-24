@@ -30,8 +30,8 @@ Use the generated CSS variables (Light on :root, Dark under the .dark selector) 
 ### CSS usage
 
 ```css
-@import url('@getpingback/design-tokens/dist/css/light.css');
-@import url('@getpingback/design-tokens/dist/css/dark.css');
+@import url('@getpingback/design-tokens/css/light.css');
+@import url('@getpingback/design-tokens/css/dark.css');
 ```
 
 Toggle Dark Mode by applying the class on a root container:
@@ -52,9 +52,9 @@ color: var(--text-default-primary);
 ### JS usage
 
 ```js
-import { BACKGROUND_DEFAULT } from '@getpingback/design-tokens/dist/js/light';
+import { BACKGROUND_DEFAULT } from '@getpingback/design-tokens/js/light';
 // or
-import { BACKGROUND_DEFAULT as DARK_BACKGROUND_DEFAULT } from '@getpingback/design-tokens/dist/js/dark';
+import { BACKGROUND_DEFAULT as DARK_BACKGROUND_DEFAULT } from '@getpingback/design-tokens/js/dark';
 ```
 
 ## Development

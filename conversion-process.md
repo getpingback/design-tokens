@@ -88,8 +88,8 @@ Example (real snippets):
 1. Import the stylesheets:
 
 ```css
-@import url('@getpingback/design-tokens/dist/css/light.css');
-@import url('@getpingback/design-tokens/dist/css/dark.css');
+@import url('@getpingback/design-tokens/css/light.css');
+@import url('@getpingback/design-tokens/css/dark.css');
 ```
 
 2. Apply the `dark` class on the root container when you want Dark Mode:
@@ -110,9 +110,9 @@ color: var(--text-default-primary);
 ### JS (when you need values at runtime)
 
 ```js
-import { BACKGROUND_DEFAULT } from '@getpingback/design-tokens/dist/js/light';
+import { BACKGROUND_DEFAULT } from '@getpingback/design-tokens/js/light';
 // or
-import { BACKGROUND_DEFAULT as DARK_BACKGROUND_DEFAULT } from '@getpingback/design-tokens/dist/js/dark';
+import { BACKGROUND_DEFAULT as DARK_BACKGROUND_DEFAULT } from '@getpingback/design-tokens/js/dark';
 ```
 
 ## Update flow
