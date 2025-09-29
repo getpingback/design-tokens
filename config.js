@@ -44,6 +44,9 @@ const lightSD = new StyleDictionary({
         {
           destination: 'light.css',
           format: 'css/variables',
+          options: {
+            selector: ':root, .pb-form-light',
+          },
         },
       ],
     },
@@ -75,7 +78,7 @@ const darkSD = new StyleDictionary({
           destination: 'dark.css',
           format: 'css/variables',
           options: {
-            selector: '.dark',
+            selector: '.dark, .pb-form-dark',
           },
         },
       ],
